@@ -366,7 +366,7 @@
         <mxCell id="QCLnzW0ZbYW-xRA61D13-1" value="业务系统（第三方）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="1270" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ffu3GPUh2htyKw5OciDv-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="Ffu3GPUh2htyKw5OciDv-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeColor=#FF33FF;" vertex="1" parent="1">
           <mxGeometry x="1420" y="410" width="20" height="380" as="geometry" />
         </mxCell>
       </root>
