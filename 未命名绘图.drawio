@@ -247,12 +247,30 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1dCSWt5S-RVCTe8Ya1WO" name="第 6 页">
-    <mxGraphModel dx="868" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kyQ8psXFwdBltj2Zt07g-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeWidth=1;shadow=1;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="80" y="300" width="660" height="300" as="geometry" />
+        <mxCell id="xg9uG9jhKw6wMoxxVuKd-2" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;7维底座核心架构&lt;/font&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="139" y="480" width="531" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="A8oeDYnDXB9zhrtbQL9i-2" value="数据标准中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A8oeDYnDXB9zhrtbQL9i-3" value="流程编排中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvosmpNpykNkPmGGTfaX-2" value="表单中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvosmpNpykNkPmGGTfaX-3" value="日程中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcup0-q0PBVGFQj8Hl1T-1" value="集成中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g3L4ti3CwcmETWod6eo8-1" value="权限中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
