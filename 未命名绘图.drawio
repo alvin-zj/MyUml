@@ -290,6 +290,15 @@
         <mxCell id="doMVg_TTNhBeLN0SokBI-7" value="集成中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="1290" y="540" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Ffu3GPUh2htyKw5OciDv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="doMVg_TTNhBeLN0SokBI-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1065" y="760" />
+              <mxPoint x="1065" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="doMVg_TTNhBeLN0SokBI-8" value="日程中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;flipH=1;flipV=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="730" width="120" height="60" as="geometry" />
         </mxCell>
@@ -299,11 +308,13 @@
         <mxCell id="doMVg_TTNhBeLN0SokBI-9" value="流程编排中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;flipH=1;flipV=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QCLnzW0ZbYW-xRA61D13-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="doMVg_TTNhBeLN0SokBI-10" target="doMVg_TTNhBeLN0SokBI-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="QCLnzW0ZbYW-xRA61D13-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="doMVg_TTNhBeLN0SokBI-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="630" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="doMVg_TTNhBeLN0SokBI-10" value="表单中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;flipH=0;flipV=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="600" width="120" height="60" as="geometry" />
+          <mxGeometry x="910" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="icIYH8Zvh5oU2cfcJ6Iu-1" value="统一工作台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="1290" y="630" width="120" height="60" as="geometry" />
