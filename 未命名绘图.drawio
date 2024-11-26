@@ -276,13 +276,16 @@
           <mxGeometry x="200" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="doMVg_TTNhBeLN0SokBI-4" value="权限中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="740" width="120" height="60" as="geometry" />
+          <mxGeometry x="1290" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="doMVg_TTNhBeLN0SokBI-5" value="数据标准中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="1100" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="doMVg_TTNhBeLN0SokBI-6" value="数据服务中台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="600" width="120" height="60" as="geometry" />
+        <mxCell id="QCLnzW0ZbYW-xRA61D13-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="doMVg_TTNhBeLN0SokBI-6" target="doMVg_TTNhBeLN0SokBI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="doMVg_TTNhBeLN0SokBI-6" value="数据服务中台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="doMVg_TTNhBeLN0SokBI-7" value="集成中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="1290" y="540" width="120" height="60" as="geometry" />
@@ -290,34 +293,40 @@
         <mxCell id="doMVg_TTNhBeLN0SokBI-8" value="日程中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;flipH=1;flipV=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="730" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QCLnzW0ZbYW-xRA61D13-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="vK1-z4KdLCfSn0z4ndxp-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1110" y="390" as="sourcePoint" />
-            <mxPoint x="1120" y="260" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QCLnzW0ZbYW-xRA61D13-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="950" y="500" as="sourcePoint" />
-            <mxPoint x="1380" y="410" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="970" y="500" />
-              <mxPoint x="970" y="390" />
-              <mxPoint x="1380" y="390" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="QCLnzW0ZbYW-xRA61D13-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="doMVg_TTNhBeLN0SokBI-9" target="doMVg_TTNhBeLN0SokBI-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="doMVg_TTNhBeLN0SokBI-9" value="流程编排中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;flipH=1;flipV=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="doMVg_TTNhBeLN0SokBI-10" value="表单中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;flipH=1;flipV=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="610" width="120" height="60" as="geometry" />
+        <mxCell id="QCLnzW0ZbYW-xRA61D13-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="doMVg_TTNhBeLN0SokBI-10" target="doMVg_TTNhBeLN0SokBI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="doMVg_TTNhBeLN0SokBI-10" value="表单中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;flipH=0;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="icIYH8Zvh5oU2cfcJ6Iu-1" value="统一工作台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="1290" y="630" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="QCLnzW0ZbYW-xRA61D13-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vK1-z4KdLCfSn0z4ndxp-1" target="doMVg_TTNhBeLN0SokBI-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250" y="360" />
+              <mxPoint x="970" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vK1-z4KdLCfSn0z4ndxp-1" value="业务系统（自研）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="1190" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QCLnzW0ZbYW-xRA61D13-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QCLnzW0ZbYW-xRA61D13-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1400" y="360" />
+              <mxPoint x="971" y="360" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="QCLnzW0ZbYW-xRA61D13-1" value="业务系统（第三方）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="1340" y="410" width="120" height="60" as="geometry" />
