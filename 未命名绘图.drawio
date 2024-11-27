@@ -302,7 +302,7 @@
         <mxCell id="doMVg_TTNhBeLN0SokBI-5" value="数据服务中台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="1100" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QCLnzW0ZbYW-xRA61D13-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;strokeColor=#66B2FF;strokeWidth=3;fontSize=18;" parent="1" source="doMVg_TTNhBeLN0SokBI-6" target="doMVg_TTNhBeLN0SokBI-5" edge="1">
+        <mxCell id="QCLnzW0ZbYW-xRA61D13-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;strokeColor=#66B2FF;strokeWidth=3;fontSize=18;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="doMVg_TTNhBeLN0SokBI-5" target="doMVg_TTNhBeLN0SokBI-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="doMVg_TTNhBeLN0SokBI-6" value="数据标准中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;flipH=0;fontSize=18;" parent="1" vertex="1">
@@ -330,6 +330,9 @@
               <mxPoint x="1065" y="620" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XA2Cmxw0GTJgm6JMaVOb-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#66B2FF;flowAnimation=1;" edge="1" parent="1" source="doMVg_TTNhBeLN0SokBI-8" target="doMVg_TTNhBeLN0SokBI-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="doMVg_TTNhBeLN0SokBI-8" value="日程中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;flipH=1;flipV=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="910" y="710" width="120" height="60" as="geometry" />
