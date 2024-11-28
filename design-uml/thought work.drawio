@@ -6,7 +6,7 @@
         <mxCell id="1" parent="0" />
         <UserObject label="1. 字段配置设计&#xa;‌1.1 扁平化字段名‌&#xa;&#xa;对于层级关系的字段，可以使用扁平化的字段名来表示。例如，对于一个JSON对象{&quot;user&quot;: {&quot;name&quot;: &quot;John&quot;, &quot;age&quot;: 30}}，可以将其扁平化为user.name和user.age两个字段。&#xa;‌1.2 字段类型与属性‌&#xa;&#xa;在字段配置表中，为每个字段指定类型（如字符串、整数、JSON对象等）和属性（如是否必填、默认值、最大值、最小值等）。&#xa;对于JSON对象类型的字段，可以额外存储一个字段来描述其结构，例如使用JSON Schema来表示。" link="1. 字段配置设计 &#xa;‌1.1 扁平化字段名‌ &#xa; &#xa;对于层级关系的字段，可以使用扁平化的字段名来表示。例如，对于一个JSON对象{&quot;user&quot;: {&quot;name&quot;: &quot;John&quot;, &quot;age&quot;: 30}}，可以将其扁平化为user.name和user.age两个字段。 &#xa;‌1.2 字段类型与属性‌ &#xa; &#xa;在字段配置表中，为每个字段指定类型（如字符串、整数、JSON对象等）和属性（如是否必填、默认值、最大值、最小值等）。 &#xa;对于JSON对象类型的字段，可以额外存储一个字段来描述其结构，例如使用JSON Schema来表示。" id="otJDmHKhC73gy1ujW4lV-1">
           <mxCell style="text;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
-            <mxGeometry x="90" y="120" width="560" height="180" as="geometry" />
+            <mxGeometry x="-160" y="130" width="560" height="180" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="otJDmHKhC73gy1ujW4lV-2" value="人脸识别&lt;div&gt;https://gitee.com/open-visual/face-search#https://gitee.com/open-visual/face-search/blob/master/face-search-test/src/main/java/com/visual/face/search/valid/exps/FaceSearchExample.java&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -17,6 +17,9 @@
         </mxCell>
         <mxCell id="0QqWJu8rV-9SB_h7EVnd-1" value="最新思路可以考虑使用Nosql 如MangoDB类型的数据库来直接存储接口参数，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-115" y="38" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0QqWJu8rV-9SB_h7EVnd-2" value="或者直接采用Json Schema存储结构，这样还能通过schema校验参数是否合法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="68" width="440" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
