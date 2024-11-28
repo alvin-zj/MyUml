@@ -1,19 +1,22 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.3" pages="2">
   <diagram name="关于API 思路" id="KDSyLmLGWB-m212FKGPZ">
-    <mxGraphModel dx="2261" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2389" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <UserObject label="1. 字段配置设计&#xa;‌1.1 扁平化字段名‌&#xa;&#xa;对于层级关系的字段，可以使用扁平化的字段名来表示。例如，对于一个JSON对象{&quot;user&quot;: {&quot;name&quot;: &quot;John&quot;, &quot;age&quot;: 30}}，可以将其扁平化为user.name和user.age两个字段。&#xa;‌1.2 字段类型与属性‌&#xa;&#xa;在字段配置表中，为每个字段指定类型（如字符串、整数、JSON对象等）和属性（如是否必填、默认值、最大值、最小值等）。&#xa;对于JSON对象类型的字段，可以额外存储一个字段来描述其结构，例如使用JSON Schema来表示。" link="1. 字段配置设计 &#xa;‌1.1 扁平化字段名‌ &#xa; &#xa;对于层级关系的字段，可以使用扁平化的字段名来表示。例如，对于一个JSON对象{&quot;user&quot;: {&quot;name&quot;: &quot;John&quot;, &quot;age&quot;: 30}}，可以将其扁平化为user.name和user.age两个字段。 &#xa;‌1.2 字段类型与属性‌ &#xa; &#xa;在字段配置表中，为每个字段指定类型（如字符串、整数、JSON对象等）和属性（如是否必填、默认值、最大值、最小值等）。 &#xa;对于JSON对象类型的字段，可以额外存储一个字段来描述其结构，例如使用JSON Schema来表示。" id="otJDmHKhC73gy1ujW4lV-1">
-          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
             <mxGeometry x="90" y="120" width="560" height="180" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="otJDmHKhC73gy1ujW4lV-2" value="人脸识别&lt;div&gt;https://gitee.com/open-visual/face-search#https://gitee.com/open-visual/face-search/blob/master/face-search-test/src/main/java/com/visual/face/search/valid/exps/FaceSearchExample.java&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="otJDmHKhC73gy1ujW4lV-2" value="人脸识别&lt;div&gt;https://gitee.com/open-visual/face-search#https://gitee.com/open-visual/face-search/blob/master/face-search-test/src/main/java/com/visual/face/search/valid/exps/FaceSearchExample.java&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-425" y="410" width="1020" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="otJDmHKhC73gy1ujW4lV-3" value="中科院人脸识别&lt;span style=&quot;color: rgb(108, 117, 125); font-family: system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; text-wrap-mode: wrap; background-color: rgb(255, 255, 255);&quot;&gt;中科院seetaface2&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="otJDmHKhC73gy1ujW4lV-3" value="中科院人脸识别&lt;span style=&quot;color: rgb(108, 117, 125); font-family: system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; text-wrap-mode: wrap; background-color: rgb(255, 255, 255);&quot;&gt;中科院seetaface2&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="160" y="568" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0QqWJu8rV-9SB_h7EVnd-1" value="最新思路可以考虑使用Nosql 如MangoDB类型的数据库来直接存储接口参数，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="38" width="430" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
