@@ -72,7 +72,7 @@
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="riSCB5IpbhkAhDdDqWNp-18" value="表单字段" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="520" width="140" height="182" as="geometry" />
+          <mxGeometry x="120" y="548" width="140" height="182" as="geometry" />
         </mxCell>
         <mxCell id="riSCB5IpbhkAhDdDqWNp-19" value="名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riSCB5IpbhkAhDdDqWNp-18">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -184,6 +184,38 @@
         </mxCell>
         <mxCell id="riSCB5IpbhkAhDdDqWNp-63" value="需要考虑是否支持类型枚举防止以后加不同类别处理人" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-235" y="208" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="riSCB5IpbhkAhDdDqWNp-64" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="riSCB5IpbhkAhDdDqWNp-5">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="270" y="250" as="sourcePoint" />
+            <mxPoint x="430" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="250" />
+              <mxPoint x="300" y="311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="riSCB5IpbhkAhDdDqWNp-65" value="Relation" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.443;entryY=1.115;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.923;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="riSCB5IpbhkAhDdDqWNp-12" target="riSCB5IpbhkAhDdDqWNp-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="500" as="sourcePoint" />
+            <mxPoint x="490" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="540" />
+              <mxPoint x="330" y="470" />
+              <mxPoint x="192" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="riSCB5IpbhkAhDdDqWNp-66" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="riSCB5IpbhkAhDdDqWNp-65">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riSCB5IpbhkAhDdDqWNp-67" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="riSCB5IpbhkAhDdDqWNp-65">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riSCB5IpbhkAhDdDqWNp-68" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="riSCB5IpbhkAhDdDqWNp-65">
+          <mxGeometry x="-0.8919" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
