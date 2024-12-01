@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.3" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.2" pages="2">
   <diagram name="关于API 思路" id="KDSyLmLGWB-m212FKGPZ">
     <mxGraphModel dx="2389" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="29m1sEHHAaygSoGpKXW8" name="第 2 页">
-    <mxGraphModel dx="2389" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,7 +51,7 @@
           <mxGeometry y="156" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="riSCB5IpbhkAhDdDqWNp-7" value="组件表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="340" width="140" height="104" as="geometry" />
+          <mxGeometry x="-150" y="700" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="riSCB5IpbhkAhDdDqWNp-8" value="+ 名称: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="riSCB5IpbhkAhDdDqWNp-7" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -173,11 +173,11 @@
         <mxCell id="riSCB5IpbhkAhDdDqWNp-50" value="其他基础属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="riSCB5IpbhkAhDdDqWNp-46" vertex="1">
           <mxGeometry y="92" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="riSCB5IpbhkAhDdDqWNp-51" value="是否已经有标准字段库？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-170" y="490" width="160" height="30" as="geometry" />
+        <mxCell id="riSCB5IpbhkAhDdDqWNp-51" value="是否已经有标准字段库？没有考虑是否有前端指定，&lt;div&gt;但是要保证name符合预期的后端字段规则&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="485" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="riSCB5IpbhkAhDdDqWNp-59" value="类别负责人" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-110" y="250" width="140" height="104" as="geometry" />
+          <mxGeometry x="-230" y="238" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="riSCB5IpbhkAhDdDqWNp-60" value="负责人" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="riSCB5IpbhkAhDdDqWNp-59" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -223,8 +223,26 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a_w3Z1JR7tbsCSyzXqNn-1" value="针对表单数据值存储可以考虑使用JSON 否则不同类型的字段比较难实现转换等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="a_w3Z1JR7tbsCSyzXqNn-1" value="针对表单数据值存储可以考虑使用JSON 否则不同类型的字段比较难实现转换等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="380" y="956" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkfXuousoUL4_q4Ysia-1" value="各个类型下面的枚举" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="140" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkfXuousoUL4_q4Ysia-2" value="+ 名称: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LrkfXuousoUL4_q4Ysia-1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkfXuousoUL4_q4Ysia-3" value="属于哪个类别" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LrkfXuousoUL4_q4Ysia-1">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkfXuousoUL4_q4Ysia-4" value="枚举值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LrkfXuousoUL4_q4Ysia-1">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkfXuousoUL4_q4Ysia-6" value="是否还生效？" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LrkfXuousoUL4_q4Ysia-1">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkfXuousoUL4_q4Ysia-5" value="其他属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LrkfXuousoUL4_q4Ysia-1">
+          <mxGeometry y="130" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
