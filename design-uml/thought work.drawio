@@ -223,8 +223,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a_w3Z1JR7tbsCSyzXqNn-1" value="针对表单数据值存储可以考虑使用JSON 否则不同类型的字段比较难实现转换等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="380" y="956" width="440" height="30" as="geometry" />
+        <mxCell id="a_w3Z1JR7tbsCSyzXqNn-1" value="在不用Json的情况下需要考虑用什么类型的字段存储value否则会出现存不下字段&lt;div&gt;通常应该用varchar2 可变字段，但是需要考虑到如果里面包含日期该如何转换&lt;/div&gt;&lt;div&gt;&lt;div&gt;针对表单数据值存储可以考虑使用JSON 否则不同类型的字段比较难实现转换等&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="375" y="941" width="450" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LrkfXuousoUL4_q4Ysia-1" value="各个类型下面的枚举" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="250" width="140" height="156" as="geometry" />
