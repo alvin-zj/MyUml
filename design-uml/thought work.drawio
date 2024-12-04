@@ -253,7 +253,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-1" value="系统管理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="480" y="510" width="140" height="182" as="geometry" />
+          <mxGeometry x="480" y="343" width="140" height="182" as="geometry" />
         </mxCell>
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-2" value="系统菜单" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BNR-eGTo2VhlDs_vx_9Z-1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -316,10 +316,10 @@
           <mxGeometry y="52" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-25" value="提供系统管理功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="470" y="477" width="120" height="30" as="geometry" />
+          <mxGeometry x="470" y="310" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-31" value="系统菜单" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="160" y="330" width="170" height="100" as="geometry" />
+          <mxGeometry x="150" y="50" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-32" value="1.菜单的CRUD" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BNR-eGTo2VhlDs_vx_9Z-31">
           <mxGeometry y="26" width="170" height="22" as="geometry" />
@@ -331,7 +331,7 @@
           <mxGeometry y="74" width="170" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-35" value="用户管理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="160" y="470" width="170" height="126" as="geometry" />
+          <mxGeometry x="150" y="170" width="170" height="126" as="geometry" />
         </mxCell>
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-36" value="1.后台系统用户" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BNR-eGTo2VhlDs_vx_9Z-35">
           <mxGeometry y="26" width="170" height="22" as="geometry" />
@@ -349,7 +349,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-41" value="角色管理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="160" y="610" width="170" height="126" as="geometry" />
+          <mxGeometry x="150" y="320" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-42" value="1.角色基本信息" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BNR-eGTo2VhlDs_vx_9Z-41">
           <mxGeometry y="26" width="170" height="22" as="geometry" />
@@ -357,11 +357,8 @@
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-43" value="2.角色权限" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BNR-eGTo2VhlDs_vx_9Z-41">
           <mxGeometry y="48" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-44" value="3.用户登录信息" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BNR-eGTo2VhlDs_vx_9Z-41">
+        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-44" value="3.可能存在的组织角色？" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BNR-eGTo2VhlDs_vx_9Z-41">
           <mxGeometry y="74" width="170" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-45" value="4.用户权限分配" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BNR-eGTo2VhlDs_vx_9Z-41">
-          <mxGeometry y="100" width="170" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BNR-eGTo2VhlDs_vx_9Z-51" target="BNR-eGTo2VhlDs_vx_9Z-52">
           <mxGeometry relative="1" as="geometry" />
@@ -380,6 +377,73 @@
         </mxCell>
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-56" value="组织？" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-280" y="720" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.965;entryY=-0.154;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BNR-eGTo2VhlDs_vx_9Z-3" target="BNR-eGTo2VhlDs_vx_9Z-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="408" />
+              <mxPoint x="380" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BNR-eGTo2VhlDs_vx_9Z-4" target="BNR-eGTo2VhlDs_vx_9Z-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="434" />
+              <mxPoint x="370" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-59" value="权限管理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="429" width="170" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-60" value="1.权限信息维护" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BNR-eGTo2VhlDs_vx_9Z-59">
+          <mxGeometry y="26" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-61" value="2.角色权限" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BNR-eGTo2VhlDs_vx_9Z-59">
+          <mxGeometry y="48" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-63" value="3.菜单权限" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BNR-eGTo2VhlDs_vx_9Z-59">
+          <mxGeometry y="74" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-62" value="3.栏目权限" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BNR-eGTo2VhlDs_vx_9Z-59">
+          <mxGeometry y="100" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BNR-eGTo2VhlDs_vx_9Z-5" target="BNR-eGTo2VhlDs_vx_9Z-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="460" />
+              <mxPoint x="370" y="492" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-65" value="全局变量" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="570" width="170" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-66" value="1.维护网站通用变量" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BNR-eGTo2VhlDs_vx_9Z-65">
+          <mxGeometry y="26" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BNR-eGTo2VhlDs_vx_9Z-6" target="BNR-eGTo2VhlDs_vx_9Z-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="486" />
+              <mxPoint x="410" y="594" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-71" value="全局搜索" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="650" width="170" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-72" value="索引字段、全局索引、ES？&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BNR-eGTo2VhlDs_vx_9Z-71">
+          <mxGeometry y="26" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BNR-eGTo2VhlDs_vx_9Z-24" target="BNR-eGTo2VhlDs_vx_9Z-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="512" />
+              <mxPoint x="430" y="674" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
