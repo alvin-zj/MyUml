@@ -261,6 +261,9 @@
         <mxCell id="Hf9WxekosFXp4FgOFROv-4" value="页面内容配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="390" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Hf9WxekosFXp4FgOFROv-8" value="全局搜索" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
