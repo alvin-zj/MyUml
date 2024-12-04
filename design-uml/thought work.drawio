@@ -256,13 +256,19 @@
           <mxGeometry x="220" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Hf9WxekosFXp4FgOFROv-3" value="页面模版配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Hf9WxekosFXp4FgOFROv-4" value="页面内容配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Hf9WxekosFXp4FgOFROv-8" value="全局搜索" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hf9WxekosFXp4FgOFROv-10" value="全局变量配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hf9WxekosFXp4FgOFROv-11" value="附件管理&lt;div&gt;图片，文档等&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
