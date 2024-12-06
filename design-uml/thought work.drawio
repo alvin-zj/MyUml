@@ -282,7 +282,7 @@
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-9" value="风格/主题管理" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BNR-eGTo2VhlDs_vx_9Z-7" vertex="1">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-20" value="" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BNR-eGTo2VhlDs_vx_9Z-7" vertex="1">
+        <mxCell id="BNR-eGTo2VhlDs_vx_9Z-20" value="缓存管理" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BNR-eGTo2VhlDs_vx_9Z-7" vertex="1">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-13" value="栏目管理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" parent="1" vertex="1">
@@ -444,7 +444,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-71" value="全局搜索" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="70" y="640" width="250" height="48" as="geometry" />
+          <mxGeometry x="90" y="650" width="250" height="48" as="geometry" />
         </mxCell>
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-72" value="索引字段、全局索引、ES，lucene？&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BNR-eGTo2VhlDs_vx_9Z-71" vertex="1">
           <mxGeometry y="26" width="250" height="22" as="geometry" />
@@ -594,6 +594,15 @@
         </mxCell>
         <mxCell id="CrLY9OjufR0IaWzx68Vf-56" value="管理个版本站点，目前需求是不同语言站点需求有差异，&lt;div&gt;增加顶层站点管理适应不同语言站点也解决多语言问题&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="274" y="-210" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CrLY9OjufR0IaWzx68Vf-57" value="权限需要查看&lt;div&gt;现有权限模块是&lt;/div&gt;&lt;div&gt;否支持当前业务需要&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="430" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CrLY9OjufR0IaWzx68Vf-64" value="管理各个站点缓存，前端后端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-80" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CrLY9OjufR0IaWzx68Vf-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.994;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BNR-eGTo2VhlDs_vx_9Z-20" target="CrLY9OjufR0IaWzx68Vf-64">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
