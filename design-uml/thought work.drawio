@@ -286,7 +286,7 @@
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-13" value="栏目管理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="480" y="640" width="140" height="156" as="geometry" />
+          <mxGeometry x="540" y="642" width="140" height="156" as="geometry" />
         </mxCell>
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-14" value="目录管理" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BNR-eGTo2VhlDs_vx_9Z-13" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -467,7 +467,12 @@
           <mxGeometry x="-190" y="920" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="CrLY9OjufR0IaWzx68Vf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BNR-eGTo2VhlDs_vx_9Z-14" target="CrLY9OjufR0IaWzx68Vf-4">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="681" />
+              <mxPoint x="370" y="759" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-80" value="lucene 做全文搜索，简单快捷" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-220" y="40" width="120" height="60" as="geometry" />
@@ -490,13 +495,8 @@
         <mxCell id="CrLY9OjufR0IaWzx68Vf-9" value="敏感检测" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CrLY9OjufR0IaWzx68Vf-7">
           <mxGeometry y="130" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CrLY9OjufR0IaWzx68Vf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BNR-eGTo2VhlDs_vx_9Z-15" target="CrLY9OjufR0IaWzx68Vf-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="410" y="763" />
-              <mxPoint x="410" y="875" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="CrLY9OjufR0IaWzx68Vf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BNR-eGTo2VhlDs_vx_9Z-15" target="CrLY9OjufR0IaWzx68Vf-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
