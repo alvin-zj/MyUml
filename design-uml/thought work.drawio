@@ -252,6 +252,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LUv36BEq15l1qxyOTAXJ-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="-200" width="260" height="250" as="geometry" />
+        </mxCell>
         <mxCell id="BNR-eGTo2VhlDs_vx_9Z-1" value="系统管理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#1ba1e2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="480" y="343" width="140" height="182" as="geometry" />
         </mxCell>
@@ -655,11 +658,41 @@
         <mxCell id="uCekJGnCsZBzwwveh_Vd-9" value="站点管理思路&lt;div&gt;1. 主站为默认站点。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.可以增加同级别的站点如：各个语言的版本。可以定制化各个站点的需求&lt;/div&gt;&lt;div style=&quot;&quot;&gt;3. 主站下面可以有子站点。用于支持未来各分子公司的站点建设。也支持定制化&lt;/div&gt;&lt;div style=&quot;&quot;&gt;4. 需要推演，同一主站下有多个子站点时的管理情况。目前思路是独立的站点进入时选择。如果不选则是默认站点。根据用户权限确定&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1670" y="630" width="430" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="UfaFgNjqxLOZ4EWV65-6-1" value="springboot" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="-10" width="280" height="60" as="geometry" />
+        <mxCell id="UfaFgNjqxLOZ4EWV65-6-1" value="springboot，spring MVC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="-7" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LUv36BEq15l1qxyOTAXJ-1" value="MyBatis-plus" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="-80" width="280" height="60" as="geometry" />
+          <mxGeometry x="1690" y="-90" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LUv36BEq15l1qxyOTAXJ-2" value="Vue+API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="-195" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LUv36BEq15l1qxyOTAXJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LUv36BEq15l1qxyOTAXJ-3" target="LUv36BEq15l1qxyOTAXJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LUv36BEq15l1qxyOTAXJ-3" value="前端模版" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="-180" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LUv36BEq15l1qxyOTAXJ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LUv36BEq15l1qxyOTAXJ-5" target="LUv36BEq15l1qxyOTAXJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LUv36BEq15l1qxyOTAXJ-5" value="ORM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="-75" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LUv36BEq15l1qxyOTAXJ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LUv36BEq15l1qxyOTAXJ-8" target="UfaFgNjqxLOZ4EWV65-6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LUv36BEq15l1qxyOTAXJ-8" value="后端底层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1565" y="8" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LUv36BEq15l1qxyOTAXJ-10" value="权限中心" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="-120" width="228" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LUv36BEq15l1qxyOTAXJ-11" value="菜单管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="-52" width="228" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LUv36BEq15l1qxyOTAXJ-13" value="复用已有模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2120" y="-170" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
