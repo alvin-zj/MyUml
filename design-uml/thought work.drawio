@@ -655,8 +655,11 @@
         <mxCell id="uCekJGnCsZBzwwveh_Vd-9" value="站点管理思路&lt;div&gt;1. 主站为默认站点。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.可以增加同级别的站点如：各个语言的版本。可以定制化各个站点的需求&lt;/div&gt;&lt;div style=&quot;&quot;&gt;3. 主站下面可以有子站点。用于支持未来各分子公司的站点建设。也支持定制化&lt;/div&gt;&lt;div style=&quot;&quot;&gt;4. 需要推演，同一主站下有多个子站点时的管理情况。目前思路是独立的站点进入时选择。如果不选则是默认站点。根据用户权限确定&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1670" y="630" width="430" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="UfaFgNjqxLOZ4EWV65-6-1" value="站点管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="-280" width="160" height="60" as="geometry" />
+        <mxCell id="UfaFgNjqxLOZ4EWV65-6-1" value="springboot" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="-10" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LUv36BEq15l1qxyOTAXJ-1" value="MyBatis-plus" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="-80" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
