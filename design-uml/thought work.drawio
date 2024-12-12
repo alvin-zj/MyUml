@@ -659,31 +659,31 @@
           <mxGeometry x="1670" y="630" width="430" height="90" as="geometry" />
         </mxCell>
         <mxCell id="UfaFgNjqxLOZ4EWV65-6-1" value="springboot，spring MVC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="1690" y="-7" width="280" height="60" as="geometry" />
+          <mxGeometry x="1680" y="50" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LUv36BEq15l1qxyOTAXJ-1" value="MyBatis-plus" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="1690" y="-90" width="280" height="60" as="geometry" />
+          <mxGeometry x="1675" y="-40" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LUv36BEq15l1qxyOTAXJ-2" value="Vue+API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="-195" width="280" height="60" as="geometry" />
+          <mxGeometry x="1680" y="-185" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LUv36BEq15l1qxyOTAXJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LUv36BEq15l1qxyOTAXJ-3" target="LUv36BEq15l1qxyOTAXJ-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LUv36BEq15l1qxyOTAXJ-3" value="前端模版" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1570" y="-180" width="70" height="30" as="geometry" />
+          <mxGeometry x="1570" y="-170" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LUv36BEq15l1qxyOTAXJ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LUv36BEq15l1qxyOTAXJ-5" target="LUv36BEq15l1qxyOTAXJ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LUv36BEq15l1qxyOTAXJ-5" value="ORM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1570" y="-75" width="50" height="30" as="geometry" />
+          <mxGeometry x="1565" y="-25" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LUv36BEq15l1qxyOTAXJ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LUv36BEq15l1qxyOTAXJ-8" target="UfaFgNjqxLOZ4EWV65-6-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LUv36BEq15l1qxyOTAXJ-8" value="后端底层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1565" y="8" width="70" height="30" as="geometry" />
+          <mxGeometry x="1565" y="65" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LUv36BEq15l1qxyOTAXJ-10" value="权限中心" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="2120" y="-120" width="228" height="60" as="geometry" />
@@ -693,6 +693,27 @@
         </mxCell>
         <mxCell id="LUv36BEq15l1qxyOTAXJ-13" value="复用已有模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2120" y="-170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LUv36BEq15l1qxyOTAXJ-16" value="日志log4j" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="-180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LUv36BEq15l1qxyOTAXJ-18" value="项目构建Maven" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="-105" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LUv36BEq15l1qxyOTAXJ-19" value="搜索Lucene/ES待定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="-22" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LUv36BEq15l1qxyOTAXJ-20" value="缓存独立部署考虑使用Ehcache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G-BM5ES90eAb288SDTgZ-1" value="SpringFramework Cache" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1675" y="-105" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G-BM5ES90eAb288SDTgZ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G-BM5ES90eAb288SDTgZ-3" target="G-BM5ES90eAb288SDTgZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G-BM5ES90eAb288SDTgZ-3" value="Cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="-90" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
