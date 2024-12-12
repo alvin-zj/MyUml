@@ -248,7 +248,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_bW-kXcklE4fUiywUzpe" name="CMS技术架构">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2389" dy="2022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -628,32 +628,35 @@
         <mxCell id="gL4_ALN8hV0CH6Hwk6ZM-1" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, Arial, Helvetica, sans-serif; font-size: 16px; text-align: left; text-wrap-mode: wrap; background-color: rgb(255, 255, 255);&quot;&gt;JFinal&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-755" y="198" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uCekJGnCsZBzwwveh_Vd-1" value="site" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uCekJGnCsZBzwwveh_Vd-1" value="site" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="670" width="140" height="182" as="geometry" />
         </mxCell>
-        <mxCell id="uCekJGnCsZBzwwveh_Vd-2" value="站点ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uCekJGnCsZBzwwveh_Vd-1">
+        <mxCell id="uCekJGnCsZBzwwveh_Vd-2" value="站点ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uCekJGnCsZBzwwveh_Vd-1" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uCekJGnCsZBzwwveh_Vd-3" value="站点类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uCekJGnCsZBzwwveh_Vd-1">
+        <mxCell id="uCekJGnCsZBzwwveh_Vd-3" value="站点类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uCekJGnCsZBzwwveh_Vd-1" vertex="1">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uCekJGnCsZBzwwveh_Vd-4" value="站点Level" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uCekJGnCsZBzwwveh_Vd-1">
+        <mxCell id="uCekJGnCsZBzwwveh_Vd-4" value="站点Level" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uCekJGnCsZBzwwveh_Vd-1" vertex="1">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uCekJGnCsZBzwwveh_Vd-5" value="父级站点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uCekJGnCsZBzwwveh_Vd-1">
+        <mxCell id="uCekJGnCsZBzwwveh_Vd-5" value="父级站点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uCekJGnCsZBzwwveh_Vd-1" vertex="1">
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uCekJGnCsZBzwwveh_Vd-6" value="父级名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uCekJGnCsZBzwwveh_Vd-1">
+        <mxCell id="uCekJGnCsZBzwwveh_Vd-6" value="父级名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uCekJGnCsZBzwwveh_Vd-1" vertex="1">
           <mxGeometry y="130" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uCekJGnCsZBzwwveh_Vd-7" value="其他基础信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uCekJGnCsZBzwwveh_Vd-1">
+        <mxCell id="uCekJGnCsZBzwwveh_Vd-7" value="其他基础信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uCekJGnCsZBzwwveh_Vd-1" vertex="1">
           <mxGeometry y="156" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uCekJGnCsZBzwwveh_Vd-8" value="站点管理，支持多站点。增加级联关系，未来拓展为可以管理子站点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="uCekJGnCsZBzwwveh_Vd-8" value="站点管理，支持多站点。增加级联关系，未来拓展为可以管理子站点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1280" y="610" width="380" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uCekJGnCsZBzwwveh_Vd-9" value="站点管理思路&lt;div&gt;1. 主站为默认站点。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.可以增加同级别的站点如：各个语言的版本。可以定制化各个站点的需求&lt;/div&gt;&lt;div style=&quot;&quot;&gt;3. 主站下面可以有子站点。用于支持未来各分子公司的站点建设。也支持定制化&lt;/div&gt;&lt;div style=&quot;&quot;&gt;4. 需要推演，同一主站下有多个子站点时的管理情况。目前思路是独立的站点进入时选择。如果不选则是默认站点。根据用户权限确定&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="uCekJGnCsZBzwwveh_Vd-9" value="站点管理思路&lt;div&gt;1. 主站为默认站点。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.可以增加同级别的站点如：各个语言的版本。可以定制化各个站点的需求&lt;/div&gt;&lt;div style=&quot;&quot;&gt;3. 主站下面可以有子站点。用于支持未来各分子公司的站点建设。也支持定制化&lt;/div&gt;&lt;div style=&quot;&quot;&gt;4. 需要推演，同一主站下有多个子站点时的管理情况。目前思路是独立的站点进入时选择。如果不选则是默认站点。根据用户权限确定&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1670" y="630" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UfaFgNjqxLOZ4EWV65-6-1" value="站点管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="-280" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
