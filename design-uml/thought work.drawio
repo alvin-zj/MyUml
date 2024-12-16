@@ -717,6 +717,9 @@
         <mxCell id="G-BM5ES90eAb288SDTgZ-3" value="Cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1560" y="-90" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="_8aCaPgbBk6KD8kZG2o6-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="-880" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
