@@ -720,6 +720,30 @@
         <mxCell id="_8aCaPgbBk6KD8kZG2o6-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="-413" y="-880" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="_8aCaPgbBk6KD8kZG2o6-50" value="" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-360" y="-850.5" as="sourcePoint" />
+            <mxPoint x="-280" y="-850.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_8aCaPgbBk6KD8kZG2o6-51" value="站点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="-1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_8aCaPgbBk6KD8kZG2o6-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_8aCaPgbBk6KD8kZG2o6-52" target="_8aCaPgbBk6KD8kZG2o6-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8aCaPgbBk6KD8kZG2o6-52" value="站点信息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-584" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_8aCaPgbBk6KD8kZG2o6-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_8aCaPgbBk6KD8kZG2o6-53" target="_8aCaPgbBk6KD8kZG2o6-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8aCaPgbBk6KD8kZG2o6-53" value="站点菜单" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="646" y="-584" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_8aCaPgbBk6KD8kZG2o6-57" value="菜单文章" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="816" y="-584" width="110" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
