@@ -787,8 +787,8 @@
         <mxCell id="fSdm4IieH5c-Fu4lMRpH-10" value="官网站点图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;fontStyle=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2115" y="-1000" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fSdm4IieH5c-Fu4lMRpH-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;技术框架&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2196" y="-380" width="100" height="40" as="geometry" />
+        <mxCell id="fSdm4IieH5c-Fu4lMRpH-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;核心技术框架&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2181" y="-380" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fSdm4IieH5c-Fu4lMRpH-16" value="参考框架MCMS&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="2316" y="9.5" width="490" height="60" as="geometry" />
