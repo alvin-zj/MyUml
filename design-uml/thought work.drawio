@@ -1042,6 +1042,9 @@
         <mxCell id="yvoYJLjY84I6N1gY2ffj-20" value="对token进行验证" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-920" y="-20" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yvoYJLjY84I6N1gY2ffj-25" value="&lt;font color=&quot;#ff3399&quot;&gt;Noted&lt;/font&gt;： RSA 秘钥对应该根据不同服务生成对应的秘钥对。避免所有应用使用统一的的秘钥对。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1150" y="480" width="390" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
