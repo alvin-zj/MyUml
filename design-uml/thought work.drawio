@@ -1209,8 +1209,11 @@
         <mxCell id="5HhF0IIQY2QHmoRp4DjG-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.429;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5HhF0IIQY2QHmoRp4DjG-22" target="5HhF0IIQY2QHmoRp4DjG-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5HhF0IIQY2QHmoRp4DjG-45" value="特殊的权限表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="995" y="970" width="100" height="30" as="geometry" />
+        <mxCell id="5HhF0IIQY2QHmoRp4DjG-45" value="特殊的操作权限表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="985" y="970" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5HhF0IIQY2QHmoRp4DjG-47" value="这里可以视为资源权限表，也可将操作表忽略直接集合到这里，根据业务需求决定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1234" width="460" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
