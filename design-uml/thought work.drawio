@@ -1123,7 +1123,7 @@
           <mxGeometry y="130" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5HhF0IIQY2QHmoRp4DjG-15" value="资源表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1380" width="140" height="156" as="geometry" />
+          <mxGeometry x="770" y="1510" width="140" height="156" as="geometry" />
         </mxCell>
         <mxCell id="5HhF0IIQY2QHmoRp4DjG-16" value="服务id" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="5HhF0IIQY2QHmoRp4DjG-15">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -1141,7 +1141,7 @@
           <mxGeometry y="130" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5HhF0IIQY2QHmoRp4DjG-21" value="&lt;font color=&quot;#ff0080&quot;&gt;Noted&lt;/font&gt;：视情况而定，如果系统体量小是把所有东西当做资源可以统一处理，如果系统大，可以按资源分类建立单独的资源表： 比如 菜单， 按钮， 文件，接口等其他资源类型" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="1384" width="269" height="76" as="geometry" />
+          <mxGeometry x="1180" y="1310" width="269" height="76" as="geometry" />
         </mxCell>
         <mxCell id="5HhF0IIQY2QHmoRp4DjG-22" value="角色_资源_操作" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="760" y="1288" width="140" height="130" as="geometry" />
@@ -1181,8 +1181,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="5HhF0IIQY2QHmoRp4DjG-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.014;exitY=-0.069;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2bcOq_lUcckSOWHWaxVc-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="1290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="1079" />
+              <mxPoint x="540" y="1230" />
+              <mxPoint x="830" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5HhF0IIQY2QHmoRp4DjG-34" value="角色-服务关联" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1270" width="140" height="78" as="geometry" />
+          <mxGeometry x="530" y="1288" width="140" height="78" as="geometry" />
         </mxCell>
         <mxCell id="5HhF0IIQY2QHmoRp4DjG-35" value="角色id" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="5HhF0IIQY2QHmoRp4DjG-34">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -1193,11 +1203,11 @@
         <mxCell id="5HhF0IIQY2QHmoRp4DjG-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.429;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5HhF0IIQY2QHmoRp4DjG-34" target="5HhF0IIQY2QHmoRp4DjG-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5HhF0IIQY2QHmoRp4DjG-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5HhF0IIQY2QHmoRp4DjG-35" target="5HhF0IIQY2QHmoRp4DjG-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="5HhF0IIQY2QHmoRp4DjG-42" value="&lt;font color=&quot;#ff3399&quot;&gt;管控逻辑：Note：其中组织，职务，用户组这些最终形成的也是人员对应的角色列表。比如组织拥有的角色，人员属于组织那人员也就有组织的角色&lt;/font&gt;&lt;div&gt;1. 根据服务找到角色列表&lt;/div&gt;&lt;div&gt;2. 根据角色列表。查询人员-角色&lt;/div&gt;&lt;div&gt;3.找到角色后根据角色列表查询到对应的角色-资源-操作 形成权限管控&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="730" y="1700" width="250" height="140" as="geometry" />
+          <mxGeometry x="920" y="1310" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5HhF0IIQY2QHmoRp4DjG-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.429;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5HhF0IIQY2QHmoRp4DjG-22" target="5HhF0IIQY2QHmoRp4DjG-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
