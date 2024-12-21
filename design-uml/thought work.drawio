@@ -1237,9 +1237,6 @@
         <mxCell id="4PbsCYqLiu7nau3QH8Nv-133" value="&lt;font color=&quot;#ff3399&quot;&gt;Noted&lt;/font&gt;： 模块就是网站栏目目前定义为菜单.&lt;div&gt;与系统菜单要区别开。考虑是否回归使用栏目&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;以方便区分&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="3090" y="7" width="340" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4PbsCYqLiu7nau3QH8Nv-134" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3120" y="175" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="4PbsCYqLiu7nau3QH8Nv-135" value="&lt;div&gt;&lt;b&gt;数据渲染流程：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;前端请求模块数据：前端发送请求到后端，请求某个模块的数据，请求中包含模块_id。&lt;/div&gt;&lt;div&gt;后端查询数据：后端根据模块_id，从模块表中获取模板_id，然后从模板组件关联表中获取该模板&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 下的组件列表和自定义属性。再根据组件_id，从组件内容表中获取每个组件的内容键值对。&lt;/div&gt;&lt;div&gt;数据传输到前端：后端将获取到的模板信息、组件列表（包括自定义属性）和组件内容发送到前端。&lt;/div&gt;&lt;div&gt;前端渲染组件：前端根据组件类型、自定义属性和内容键值对来渲染每个组件。例如，对于文本组件，&lt;/div&gt;&lt;div&gt;根据 “text_value” 内容键获取文本内容，应用自定义属性（如字体、字号）进行渲染；对于图片组件，&lt;/div&gt;&lt;div&gt;根据 “image_url” 内容键获取图片链接，加载并展示图片。最终将所有组件按照模板的布局组合起来，呈现完整的模块页面。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;rounded=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="3990" y="-50" width="900" height="170" as="geometry" />
         </mxCell>
