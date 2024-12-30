@@ -1880,10 +1880,10 @@
         <mxCell id="o355Wuf6DE1pKD0wyPL9-4" value="数据持久(DAO层）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="110" y="360" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-5" value="业务逻辑层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-5" value="业务逻辑（Service）层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="100" y="250" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-6" value="通用处理（manager层）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-6" value="通用处理（Manager层）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="250" y="310" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o355Wuf6DE1pKD0wyPL9-7" value="外部接口或第三方平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
