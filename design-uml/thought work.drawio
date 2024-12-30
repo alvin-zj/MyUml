@@ -1871,8 +1871,8 @@
         <mxCell id="o355Wuf6DE1pKD0wyPL9-20" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="-180" y="120" width="440" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-1" value="终端显示层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-105" y="150" width="120" height="30" as="geometry" />
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-1" value="终端显示（前端应用）层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-105" y="150" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o355Wuf6DE1pKD0wyPL9-3" value="请求处理（Web 层）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-105" y="200" width="150" height="30" as="geometry" />
