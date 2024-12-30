@@ -1886,7 +1886,7 @@
         <mxCell id="o355Wuf6DE1pKD0wyPL9-6" value="通用处理（Manager层）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="250" y="310" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-7" value="外部接口或第三方平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-7" value="外部接口或第三方平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="240" y="410" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o355Wuf6DE1pKD0wyPL9-8" value="开放接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
