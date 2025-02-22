@@ -1645,6 +1645,331 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="rSoQRUztm6STJ5aiD8-a" name="研发流程">
+    <mxGraphModel dx="2901" dy="2275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-2" value="" style="group;fontSize=16;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-720" y="-510" width="1970" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-3" value="" style="group" vertex="1" connectable="0" parent="EX1xdjpakq6WcBF8wqO0-2">
+          <mxGeometry y="-20" width="1970" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-4" value="开发阶段" style="swimlane;startSize=60;horizontal=0;fontColor=default;container=0;fillColor=#66B2FF;swimlaneFillColor=#3399FF;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-3">
+          <mxGeometry x="-0.24" y="330" width="1860" height="223" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-5" value="PRD&lt;br&gt;原型图、UI（如有）&lt;br&gt;技术设计文档" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-4">
+          <mxGeometry x="90" y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-4" source="EX1xdjpakq6WcBF8wqO0-7" target="EX1xdjpakq6WcBF8wqO0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-7" value="概要/详细设计，数据建模，编码规范等" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;fontSize=16;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-4">
+          <mxGeometry x="974" y="39.989999999999995" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-4" source="EX1xdjpakq6WcBF8wqO0-9" target="EX1xdjpakq6WcBF8wqO0-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-9" value="编码开发，单元测试" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;fontSize=16;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-4">
+          <mxGeometry x="974" y="110.00000000000001" width="165" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-4" source="EX1xdjpakq6WcBF8wqO0-11" target="EX1xdjpakq6WcBF8wqO0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-11" value="&lt;font style=&quot;font-size: 16px&quot;&gt;确认开发功能与需求一致性&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-4">
+          <mxGeometry x="330.24" y="39.989999999999995" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-4" source="EX1xdjpakq6WcBF8wqO0-13" target="EX1xdjpakq6WcBF8wqO0-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="745" y="100" />
+              <mxPoint x="940" y="100" />
+              <mxPoint x="940" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-13" value="&lt;font style=&quot;font-size: 16px&quot;&gt;项目计划排期&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-4">
+          <mxGeometry x="670" y="39.989999999999995" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-4" source="EX1xdjpakq6WcBF8wqO0-15" target="EX1xdjpakq6WcBF8wqO0-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-15" value="&lt;font style=&quot;font-size: 16px&quot;&gt;跟踪开发进度，协调资源&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-4">
+          <mxGeometry x="670" y="110" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-16" value="研发组：&lt;br&gt;设计文档，可运行代码，单元测试报告&lt;br&gt;项目经理：&lt;br&gt;任务拆解/分配清单，设计评审报告，&lt;br&gt;进度报告，风险管理清单&lt;br&gt;产品：&lt;br&gt;功能验收反馈&lt;br&gt;QA：&lt;br&gt;用例清单" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-4">
+          <mxGeometry x="1560" y="9.990000000000009" width="290" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-4" source="EX1xdjpakq6WcBF8wqO0-5" target="EX1xdjpakq6WcBF8wqO0-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-18" value="用例设计" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;fontSize=16;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-4">
+          <mxGeometry x="1280" y="39.99000000000001" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-19" value="&lt;font style=&quot;font-size: 16px&quot;&gt;组织代码评审，控制版本迭代&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-4">
+          <mxGeometry x="670" y="173" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-20" value="开发环境测试联调" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;fontSize=16;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-4">
+          <mxGeometry x="980.24" y="170" width="165" height="44.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-21" value="测试阶段" style="swimlane;startSize=60;horizontal=0;fontColor=default;container=0;strokeColor=#330000;fillColor=#99FFFF;swimlaneFillColor=#33FFFF;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-3">
+          <mxGeometry x="-0.24" y="553" width="1860" height="199.99" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-22" value="通过UT的代码&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;用例清单&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-21">
+          <mxGeometry x="80" y="40.01999999999999" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-23" value="&lt;font style=&quot;font-size: 16px&quot;&gt;修复Bug，优化代码&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-21">
+          <mxGeometry x="980.24" y="28.58999999999999" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-24" value="研发组：&lt;br&gt;修复后的代码版本&lt;br&gt;测试QA：&lt;br&gt;测试验收报告&lt;br&gt;Bug清单&lt;br&gt;项目经理：&lt;br&gt;上线风险评估表" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-21">
+          <mxGeometry x="1560" y="28.589999999999993" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-21" source="EX1xdjpakq6WcBF8wqO0-26" target="EX1xdjpakq6WcBF8wqO0-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-26" value="&lt;table style=&quot;border-collapse: collapse ; color: rgb(64 , 64 , 64) ; font-family: &amp;#34;inter&amp;#34; , , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;noto sans&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;cantarell&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;open sans&amp;#34; , sans-serif ; font-size: 16.002px&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;border-bottom: 1px solid rgb()&quot;&gt;编写测试用例，执行系统/集成测试&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-21">
+          <mxGeometry x="1280" y="20.009999999999998" width="190" height="41.42" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-27" value="&lt;font color=&quot;#404040&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;提出bug并跟踪&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;align=center;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-21">
+          <mxGeometry x="1280" y="80" width="190" height="39.27" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-21" source="EX1xdjpakq6WcBF8wqO0-29" target="EX1xdjpakq6WcBF8wqO0-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="161" />
+              <mxPoint x="890" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-29" value="&lt;table style=&quot;border-collapse: collapse ; color: rgb(64 , 64 , 64) ; font-family: &amp;#34;inter&amp;#34; , , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;noto sans&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;cantarell&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;open sans&amp;#34; , sans-serif ; font-size: 16.002px&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;border-bottom: 1px solid rgb()&quot;&gt;Bug验收&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-21">
+          <mxGeometry x="1280" y="141.42999999999998" width="190" height="39.27" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-30" value="修复反馈" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;fontSize=15;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-21">
+          <mxGeometry x="984.24" y="99.99999999999999" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-21" source="EX1xdjpakq6WcBF8wqO0-30" target="EX1xdjpakq6WcBF8wqO0-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280.24" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1190" y="121" />
+              <mxPoint x="1190" y="161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-32" value="&lt;font style=&quot;font-size: 16px&quot;&gt;审核测试结果&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-21">
+          <mxGeometry x="670.24" y="39.29999999999999" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-33" value="&lt;font style=&quot;font-size: 16px&quot;&gt;申请上线（OA）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;fillColor=#E6E6E6;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-21">
+          <mxGeometry x="670.24" y="119.26999999999998" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-34" value="部署阶段" style="swimlane;startSize=60;horizontal=0;fontColor=default;container=0;fillColor=#CC99FF;swimlaneFillColor=#B266FF;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-3">
+          <mxGeometry y="752.99" width="1860" height="197.01" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-35" value="&lt;font style=&quot;font-size: 16px&quot;&gt;需求验收&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-34">
+          <mxGeometry x="340" y="120.71" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-34" source="EX1xdjpakq6WcBF8wqO0-37" target="EX1xdjpakq6WcBF8wqO0-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-37" value="&lt;font style=&quot;font-size: 16px&quot;&gt;协调审核上线&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-34">
+          <mxGeometry x="675" y="120.70999999999998" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-34" source="EX1xdjpakq6WcBF8wqO0-39" target="EX1xdjpakq6WcBF8wqO0-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1190" y="100" />
+              <mxPoint x="1190" y="89" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-39" value="&lt;span style=&quot;font-size: 16px&quot;&gt;代码打包，部署生产环境&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-34">
+          <mxGeometry x="984" y="79.27999999999997" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-40" value="提交生产代码" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;fontSize=16;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-34">
+          <mxGeometry x="984" y="20.009999999999998" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-34" source="EX1xdjpakq6WcBF8wqO0-42" target="EX1xdjpakq6WcBF8wqO0-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="41" />
+              <mxPoint x="880" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-42" value="审核合并生产分支" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-34">
+          <mxGeometry x="670" y="21.09" width="160" height="39.28" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-34" source="EX1xdjpakq6WcBF8wqO0-40" target="EX1xdjpakq6WcBF8wqO0-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-34" source="EX1xdjpakq6WcBF8wqO0-45" target="EX1xdjpakq6WcBF8wqO0-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-45" value="&lt;span style=&quot;font-size: 16px&quot;&gt;执行生产验收测试&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-34">
+          <mxGeometry x="1285" y="68.59000000000003" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-34" source="EX1xdjpakq6WcBF8wqO0-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="141.01" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="825" y="141" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-47" value="&lt;span style=&quot;font-size: 16px&quot;&gt;跟踪维护发布检查清单&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-34">
+          <mxGeometry x="1285" y="130.01000000000005" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-34" source="EX1xdjpakq6WcBF8wqO0-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="70.00999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-49" value="&lt;span style=&quot;font-size: 16px&quot;&gt;拟定验收测试方案&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-34">
+          <mxGeometry x="1285" y="10.009999999999991" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-50" value="最终版本代码&lt;br&gt;部署包&lt;br&gt;测试验收报告" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-34">
+          <mxGeometry x="90" y="68.49999999999999" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-51" value="输入" style="swimlane;startSize=60;fontColor=default;container=0;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-3">
+          <mxGeometry x="60" y="40" width="220" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-52" value="&lt;font style=&quot;font-size: 16px&quot;&gt;提出原始需求&lt;br&gt;明确业务目标&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-51">
+          <mxGeometry x="23.995555555555526" y="128.56857142857137" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-53" value="需求阶段" style="swimlane;startSize=60;horizontal=0;fontColor=default;container=0;fillColor=#E6FFCC;swimlaneFillColor=#CCFF99;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-3">
+          <mxGeometry y="100" width="1860" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=16;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-53" source="EX1xdjpakq6WcBF8wqO0-55" target="EX1xdjpakq6WcBF8wqO0-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-55" value="&lt;font style=&quot;font-size: 16px&quot;&gt;分析需求，编写PRD&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-53">
+          <mxGeometry x="330" y="28.57" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-56" value="组织审核需求" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;fontSize=16;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-53">
+          <mxGeometry x="680" y="20" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-57" value="OA流程批准立项" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;fontSize=16;fillColor=#E6E6E6;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-53">
+          <mxGeometry x="680" y="150" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-53" source="EX1xdjpakq6WcBF8wqO0-56" target="EX1xdjpakq6WcBF8wqO0-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-59" value="&lt;div&gt;&lt;span&gt;产品：&lt;/span&gt;&lt;/div&gt;需求清单，PRD文档，原型图&lt;br&gt;项目经理：&lt;br&gt;计划草案，需求审核记录&lt;br&gt;研发组：&lt;br&gt;需求开发说明文档" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-53">
+          <mxGeometry x="1559.76" y="40" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-53" source="EX1xdjpakq6WcBF8wqO0-61" target="EX1xdjpakq6WcBF8wqO0-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-61" value="加入需求评审" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;fontSize=16;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-53">
+          <mxGeometry x="1290" y="19.999999999999993" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-62" value="&lt;font style=&quot;font-size: 16px&quot;&gt;与业务方确认需求&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-53">
+          <mxGeometry x="330" y="150" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-63" value="审核阶段性活动和文档质量" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;fontSize=16;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-53">
+          <mxGeometry x="1290" y="95" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-53" source="EX1xdjpakq6WcBF8wqO0-65" target="EX1xdjpakq6WcBF8wqO0-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="939" y="100" />
+              <mxPoint x="939" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-65" value="加入需求评审" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;fontSize=16;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-53">
+          <mxGeometry x="980" y="80" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-53" source="EX1xdjpakq6WcBF8wqO0-61" target="EX1xdjpakq6WcBF8wqO0-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="819" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-53" source="EX1xdjpakq6WcBF8wqO0-57" target="EX1xdjpakq6WcBF8wqO0-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="489" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-68" value="&lt;font style=&quot;font-size: 16px&quot;&gt;沟通修正需求&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-53">
+          <mxGeometry x="330" y="93.57" width="150" height="41.43" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-69" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;dashed=1;fontSize=16;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-53" source="EX1xdjpakq6WcBF8wqO0-68" target="EX1xdjpakq6WcBF8wqO0-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="909" y="440" as="sourcePoint" />
+            <mxPoint x="749" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="713" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-70" value="如有需要" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=default;" vertex="1" connectable="0" parent="EX1xdjpakq6WcBF8wqO0-69">
+          <mxGeometry x="-0.5473" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-71" value="&lt;span style=&quot;color: rgb(64 , 64 , 64) ; font-family: &amp;#34;inter&amp;#34; , , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;noto sans&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;cantarell&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;open sans&amp;#34; , sans-serif ; font-size: 16.002px&quot;&gt;原始需求&lt;br&gt;业务目标&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-53">
+          <mxGeometry x="90" y="65" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-72" value="产品经理" style="swimlane;startSize=60;fontColor=default;container=0;fillColor=#FF99FF;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-3">
+          <mxGeometry x="280" y="40" width="330" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-73" value="项目经理" style="swimlane;startSize=60;fontColor=default;container=0;fillColor=#CCCCFF;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-3">
+          <mxGeometry x="610" y="40" width="300" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-74" value="研发组" style="swimlane;startSize=60;fontColor=default;container=0;fillColor=#FF33FF;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-3">
+          <mxGeometry x="910" y="40" width="307.69" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-75" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;container=0;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-3">
+          <mxGeometry y="40" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-76" value="测试QA" style="swimlane;startSize=60;fontColor=default;container=0;fillColor=#FF3399;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-3">
+          <mxGeometry x="1217.69" y="40" width="317.3" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-77" value="输出" style="swimlane;startSize=60;fontColor=default;container=0;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-3">
+          <mxGeometry x="1534.99" y="40" width="324.77" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-78" value="研发组：&lt;br&gt;部署包&lt;br&gt;测试QA：&lt;br&gt;版本日志&lt;br&gt;测试方案&lt;br&gt;检查清单" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-77">
+          <mxGeometry x="24.769999999999982" y="742.3" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-79" value="研发组：&lt;br&gt;部署包&lt;br&gt;测试QA：&lt;br&gt;版本日志&lt;br&gt;测试方案&lt;br&gt;检查清单" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-77">
+          <mxGeometry x="24.769999999999982" y="742.3" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-80" value="研发组：&lt;br&gt;修复后的代码版本&lt;br&gt;测试QA：&lt;br&gt;测试验收报告&lt;br&gt;Bug清单&lt;br&gt;项目经理：&lt;br&gt;上线风险评估表" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=default;" vertex="1" parent="EX1xdjpakq6WcBF8wqO0-77">
+          <mxGeometry x="24.769999999999982" y="541.59" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=default;" edge="1" parent="EX1xdjpakq6WcBF8wqO0-3" source="EX1xdjpakq6WcBF8wqO0-52" target="EX1xdjpakq6WcBF8wqO0-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=default;" edge="1" parent="1" source="EX1xdjpakq6WcBF8wqO0-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="-140.01000000000022" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=default;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EX1xdjpakq6WcBF8wqO0-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="120" />
+              <mxPoint x="460" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=default;" edge="1" parent="1" source="EX1xdjpakq6WcBF8wqO0-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="25" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EX1xdjpakq6WcBF8wqO0-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;fontColor=default;" edge="1" parent="1" source="EX1xdjpakq6WcBF8wqO0-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="336" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="BtXDq1BmzYaXJb5BYRd9" name="git flow">
     <mxGraphModel dx="1562" dy="853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1867,68 +2192,68 @@
     </mxGraphModel>
   </diagram>
   <diagram id="k3rG9N0my49qD-9JJU4g" name="业务分层">
-    <mxGraphModel dx="2389" dy="853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2901" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-20" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-20" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" parent="1" vertex="1">
           <mxGeometry x="-180" y="120" width="440" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-1" value="终端显示层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-1" value="终端显示层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="-105" y="150" width="145" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-3" value="请求处理（Web 层）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-3" value="请求处理（Web 层）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-105" y="200" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-4" value="数据持久(DAO）层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-4" value="数据持久(DAO）层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-95" y="350" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-5" value="业务逻辑（Service）层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-5" value="业务逻辑（Service）层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-105" y="240" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-6" value="通用处理（Manager）层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-6" value="通用处理（Manager）层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="45" y="300" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-7" value="外部接口或第三方平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-7" value="外部接口或第三方平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="35" y="400" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-8" value="开放接口(API) 层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-8" value="开放接口(API) 层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="75" y="150" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-10" value="数据源" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-10" value="数据源" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-85" y="390" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.719;exitY=-0.06;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="o355Wuf6DE1pKD0wyPL9-5" target="o355Wuf6DE1pKD0wyPL9-8">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.719;exitY=-0.06;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" parent="1" source="o355Wuf6DE1pKD0wyPL9-5" target="o355Wuf6DE1pKD0wyPL9-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="103" y="230" as="sourcePoint" />
             <mxPoint x="235" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.148;entryY=1.14;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="1" target="o355Wuf6DE1pKD0wyPL9-5">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.148;entryY=1.14;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" target="o355Wuf6DE1pKD0wyPL9-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-62" y="340" as="sourcePoint" />
             <mxPoint x="235" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.846;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.856;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="o355Wuf6DE1pKD0wyPL9-7" target="o355Wuf6DE1pKD0wyPL9-6">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.846;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.856;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" parent="1" source="o355Wuf6DE1pKD0wyPL9-7" target="o355Wuf6DE1pKD0wyPL9-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="185" y="450" as="sourcePoint" />
             <mxPoint x="235" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.903;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="o355Wuf6DE1pKD0wyPL9-8" target="o355Wuf6DE1pKD0wyPL9-5">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.903;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" source="o355Wuf6DE1pKD0wyPL9-8" target="o355Wuf6DE1pKD0wyPL9-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="185" y="450" as="sourcePoint" />
             <mxPoint x="235" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="1" source="o355Wuf6DE1pKD0wyPL9-6">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;" parent="1" source="o355Wuf6DE1pKD0wyPL9-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-5" y="330" as="sourcePoint" />
             <mxPoint x="115" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o355Wuf6DE1pKD0wyPL9-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.341;exitY=1.113;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="o355Wuf6DE1pKD0wyPL9-5" target="o355Wuf6DE1pKD0wyPL9-4">
+        <mxCell id="o355Wuf6DE1pKD0wyPL9-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.341;exitY=1.113;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" parent="1" source="o355Wuf6DE1pKD0wyPL9-5" target="o355Wuf6DE1pKD0wyPL9-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="185" y="450" as="sourcePoint" />
             <mxPoint x="235" y="400" as="targetPoint" />
@@ -1969,17 +2294,6 @@
         </mxCell>
         <mxCell id="IUa8ccYFURQI4xkd2FEm-8" value="&lt;h3 style=&quot;margin-top: var(--cos-space-xs); margin-right: 0px; margin-bottom: var(--cos-space-xs); margin-left: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-headline-sm); font-size: var(--cos-text-headline-sm); font-weight: var(--cos-font-medium); -webkit-text-stroke-width: 0px; -webkit-text-stroke-color: ; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;组织分解结构（OBS）&lt;/h3&gt;&lt;ol style=&quot;margin: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; counter-reset: listCounter 0; list-style: none; color: rgb(51, 51, 51); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--cos-space-none); -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-body-lg-higher); min-height: 28px; position: relative; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: var(--cos-text-body-lg-higher); font-weight: var(--cos-font-regular);&quot;&gt;&lt;p class=&quot;marklang-paragraph&quot; style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; font-size: var(--cos-text-body-lg-higher); line-height: var(--cos-leading-body-lg-higher); color: var(--cos-color-text); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-weight: var(--cos-font-regular);&quot;&gt;‌&lt;strong style=&quot;margin: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; font-weight: var(--cos-font-medium); -webkit-text-stroke: var(--cos-font-medium-stroke); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif;&quot;&gt;定义&lt;/strong&gt;‌：OBS即Organizational Breakdown Structure，组织分解结构。它将一个项目根据其组织结构分解为一系列的组织单元。&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--cos-space-none); -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-body-lg-higher); min-height: 28px; position: relative; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: var(--cos-text-body-lg-higher); font-weight: var(--cos-font-regular);&quot;&gt;&lt;p class=&quot;marklang-paragraph&quot; style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; font-size: var(--cos-text-body-lg-higher); line-height: var(--cos-leading-body-lg-higher); color: var(--cos-color-text); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-weight: var(--cos-font-regular);&quot;&gt;‌&lt;strong style=&quot;margin: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; font-weight: var(--cos-font-medium); -webkit-text-stroke: var(--cos-font-medium-stroke); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif;&quot;&gt;作用&lt;/strong&gt;‌：&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: var(--cos-space-none); padding: 0px; -webkit-tap-highlight-color: transparent; counter-reset: listCounter 0; list-style: none;&quot;&gt;&lt;li style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--cos-space-xl); -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-body-lg-higher); min-height: 28px; position: relative; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: var(--cos-text-body-lg-higher); font-weight: var(--cos-font-regular);&quot;&gt;帮助企业对项目进行有效编制和组织。&lt;/li&gt;&lt;li style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--cos-space-xl); -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-body-lg-higher); min-height: 28px; position: relative; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: var(--cos-text-body-lg-higher); font-weight: var(--cos-font-regular);&quot;&gt;提高项目的可见性和控制性。&lt;/li&gt;&lt;li style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--cos-space-xl); -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-body-lg-higher); min-height: 28px; position: relative; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: var(--cos-text-body-lg-higher); font-weight: var(--cos-font-regular);&quot;&gt;帮助管理者更好地理解项目中涉及的组织单元，进而更好地进行资源的分配和管理。&lt;/li&gt;&lt;li style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--cos-space-xl); -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-body-lg-higher); min-height: 28px; position: relative; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: var(--cos-text-body-lg-higher); font-weight: var(--cos-font-regular);&quot;&gt;可以清晰地展现项目结构、项目资源等，帮助管理者更好地控制项目的进度和成本。&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--cos-space-none); -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-body-lg-higher); min-height: 28px; position: relative; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: var(--cos-text-body-lg-higher); font-weight: var(--cos-font-regular);&quot;&gt;&lt;p class=&quot;marklang-paragraph&quot; style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; font-size: var(--cos-text-body-lg-higher); line-height: var(--cos-leading-body-lg-higher); color: var(--cos-color-text); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-weight: var(--cos-font-regular);&quot;&gt;‌&lt;strong style=&quot;margin: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; font-weight: var(--cos-font-medium); -webkit-text-stroke: var(--cos-font-medium-stroke); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif;&quot;&gt;设计理论&lt;/strong&gt;‌：OBS的设计理论基于项目管理的组织结构，它反映了组织的管理层次和职责分配。通过OBS，可以明确每个组织单元在项目中的角色和责任。&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--cos-space-none); -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-body-lg-higher); min-height: 28px; position: relative; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: var(--cos-text-body-lg-higher); font-weight: var(--cos-font-regular);&quot;&gt;&lt;p class=&quot;marklang-paragraph&quot; style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; font-size: var(--cos-text-body-lg-higher); line-height: var(--cos-leading-body-lg-higher); color: var(--cos-color-text); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-weight: var(--cos-font-regular);&quot;&gt;‌&lt;strong style=&quot;margin: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; font-weight: var(--cos-font-medium); -webkit-text-stroke: var(--cos-font-medium-stroke); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif;&quot;&gt;具体软件实现&lt;/strong&gt;‌：在P6项目管理软件中，OBS是一个全局层次，代表企业中负责项目的管理层。OBS通常反映了组织的管理结构，从顶层人员向下到构成企业的各个层级。此外，OBS层次结构还用于为用户授予对项目以及项目内的WBS（工作分解结构）层的特定存取权限。&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;h3 style=&quot;margin-top: var(--cos-space-xs); margin-right: 0px; margin-bottom: var(--cos-space-xs); margin-left: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-headline-sm); font-size: var(--cos-text-headline-sm); font-weight: var(--cos-font-medium); -webkit-text-stroke-width: 0px; -webkit-text-stroke-color: ; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;工作分解结构（WBS）&lt;/h3&gt;&lt;ol style=&quot;margin: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; counter-reset: listCounter 0; list-style: none; color: rgb(51, 51, 51); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--cos-space-none); -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-body-lg-higher); min-height: 28px; position: relative; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: var(--cos-text-body-lg-higher); font-weight: var(--cos-font-regular);&quot;&gt;&lt;p class=&quot;marklang-paragraph&quot; style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; font-size: var(--cos-text-body-lg-higher); line-height: var(--cos-leading-body-lg-higher); color: var(--cos-color-text); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-weight: var(--cos-font-regular);&quot;&gt;‌&lt;strong style=&quot;margin: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; font-weight: var(--cos-font-medium); -webkit-text-stroke: var(--cos-font-medium-stroke); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif;&quot;&gt;定义&lt;/strong&gt;‌：WBS即Work Breakdown Structure，工作分解结构。它以可交付成果为导向对项目要素进行的分组，归纳和定义了项目的整个工作范围，每下降一层代表对项目工作的更详细定义。&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--cos-space-none); -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-body-lg-higher); min-height: 28px; position: relative; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: var(--cos-text-body-lg-higher); font-weight: var(--cos-font-regular);&quot;&gt;&lt;p class=&quot;marklang-paragraph&quot; style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; font-size: var(--cos-text-body-lg-higher); line-height: var(--cos-leading-body-lg-higher); color: var(--cos-color-text); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-weight: var(--cos-font-regular);&quot;&gt;‌&lt;strong style=&quot;margin: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; font-weight: var(--cos-font-medium); -webkit-text-stroke: var(--cos-font-medium-stroke); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif;&quot;&gt;作用&lt;/strong&gt;‌：&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: var(--cos-space-none); padding: 0px; -webkit-tap-highlight-color: transparent; counter-reset: listCounter 0; list-style: none;&quot;&gt;&lt;li style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--cos-space-xl); -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-body-lg-higher); min-height: 28px; position: relative; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: var(--cos-text-body-lg-higher); font-weight: var(--cos-font-regular);&quot;&gt;是制定进度计划、资源需求、成本预算、风险管理计划和采购计划等的重要基础。&lt;/li&gt;&lt;li style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--cos-space-xl); -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-body-lg-higher); min-height: 28px; position: relative; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: var(--cos-text-body-lg-higher); font-weight: var(--cos-font-regular);&quot;&gt;是控制项目变更的重要基础。&lt;/li&gt;&lt;li style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--cos-space-xl); -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-body-lg-higher); min-height: 28px; position: relative; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: var(--cos-text-body-lg-higher); font-weight: var(--cos-font-regular);&quot;&gt;定义了里程碑事件，可以向高级管理层和客户报告项目完成情况，作为项目状况的报告工具。&lt;/li&gt;&lt;li style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--cos-space-xl); -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-body-lg-higher); min-height: 28px; position: relative; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: var(--cos-text-body-lg-higher); font-weight: var(--cos-font-regular);&quot;&gt;有助于项目经理更好地规划和组织项目的执行，跟踪项目的进度，以及合理地进行任务分配。&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--cos-space-none); -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-body-lg-higher); min-height: 28px; position: relative; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: var(--cos-text-body-lg-higher); font-weight: var(--cos-font-regular);&quot;&gt;&lt;p class=&quot;marklang-paragraph&quot; style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; font-size: var(--cos-text-body-lg-higher); line-height: var(--cos-leading-body-lg-higher); color: var(--cos-color-text); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-weight: var(--cos-font-regular);&quot;&gt;‌&lt;strong style=&quot;margin: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; font-weight: var(--cos-font-medium); -webkit-text-stroke: var(--cos-font-medium-stroke); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif;&quot;&gt;设计理论&lt;/strong&gt;‌：WBS的设计理论基于项目的可交付成果和项目范围，它强调将项目工作分解为更小、更易管理的部分，以便更好地组织、规划和控制项目。&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--cos-space-none); -webkit-tap-highlight-color: transparent; line-height: var(--cos-leading-body-lg-higher); min-height: 28px; position: relative; font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-size: var(--cos-text-body-lg-higher); font-weight: var(--cos-font-regular);&quot;&gt;&lt;p class=&quot;marklang-paragraph&quot; style=&quot;margin-top: var(--cos-space-3xs); margin-right: 0px; margin-bottom: var(--cos-space-3xs); margin-left: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; font-size: var(--cos-text-body-lg-higher); line-height: var(--cos-leading-body-lg-higher); color: var(--cos-color-text); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif; font-weight: var(--cos-font-regular);&quot;&gt;‌&lt;strong style=&quot;margin: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; font-weight: var(--cos-font-medium); -webkit-text-stroke: var(--cos-font-medium-stroke); font-family: &amp;quot;PingFang SC&amp;quot;, Arial, Helvetica, sans-serif;&quot;&gt;具体软件实现&lt;/strong&gt;‌：在P6项目管理软件中，WBS用于表示项目的工作范围，可以将其分解为更小的工作包或活动，直到可以被分配给个人或团队进行执行的最小工作单元。通过WBS，项目经理可以清晰地了解项目的各个部分，有助于更好地规划和组织项目的执行。&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="840" width="500" height="720" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="rSoQRUztm6STJ5aiD8-a" name="第 10 页">
-    <mxGraphModel dx="2901" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="EX1xdjpakq6WcBF8wqO0-1" value="..." style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=0;arcSize=8;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="230" width="1000" height="370" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
