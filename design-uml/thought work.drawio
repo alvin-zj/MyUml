@@ -2039,6 +2039,9 @@
         <mxCell id="m6HEEHo3qk1ABG_dY9-6-6" value="organization_id" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="m6HEEHo3qk1ABG_dY9-6-1">
           <mxGeometry y="154" width="160" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="m6HEEHo3qk1ABG_dY9-6-7" value="角色中添加组织和部门id是为了&lt;div&gt;冗余支持角色有单一固定属性情况&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="386" width="200" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
