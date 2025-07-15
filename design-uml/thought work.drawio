@@ -1783,7 +1783,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="74qlmXTSF1Csrr5mG-hw" name="权限模块ER简图">
-    <mxGraphModel dx="1554" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2381" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2213,17 +2213,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="OqhWSK0iF346BGF96KZG-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OqhWSK0iF346BGF96KZG-44" target="OqhWSK0iF346BGF96KZG-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OqhWSK0iF346BGF96KZG-44" value="资源&lt;br&gt;resources" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="440" y="1440" width="200" height="128" as="geometry" />
+          <mxGeometry x="440" y="1279" width="160" height="128" as="geometry" />
         </mxCell>
         <mxCell id="OqhWSK0iF346BGF96KZG-45" value="tenant_id" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="OqhWSK0iF346BGF96KZG-44">
-          <mxGeometry y="50" width="200" height="26" as="geometry" />
+          <mxGeometry y="50" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OqhWSK0iF346BGF96KZG-46" value="domain_id" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="OqhWSK0iF346BGF96KZG-44">
-          <mxGeometry y="76" width="200" height="26" as="geometry" />
+          <mxGeometry y="76" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OqhWSK0iF346BGF96KZG-47" value="code" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="OqhWSK0iF346BGF96KZG-44">
-          <mxGeometry y="102" width="200" height="26" as="geometry" />
+          <mxGeometry y="102" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OqhWSK0iF346BGF96KZG-48" value="资源-属性&lt;br&gt;resource_attributes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="720" y="1280" width="200" height="154" as="geometry" />
@@ -2283,7 +2286,7 @@
           <mxGeometry y="206" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OqhWSK0iF346BGF96KZG-67" value="高级数据-权限advanced_data_permissions" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="1440" width="240" height="232" as="geometry" />
+          <mxGeometry x="1121" y="1440" width="240" height="232" as="geometry" />
         </mxCell>
         <mxCell id="OqhWSK0iF346BGF96KZG-68" value="role_id" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="OqhWSK0iF346BGF96KZG-67">
           <mxGeometry y="50" width="240" height="26" as="geometry" />
@@ -2305,6 +2308,64 @@
         </mxCell>
         <mxCell id="OqhWSK0iF346BGF96KZG-74" value="condition_expr" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="OqhWSK0iF346BGF96KZG-67">
           <mxGeometry y="206" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OqhWSK0iF346BGF96KZG-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OqhWSK0iF346BGF96KZG-76" target="OqhWSK0iF346BGF96KZG-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OqhWSK0iF346BGF96KZG-76" value="定义：存储用户的静态或动态属性（如部门、职级、区域、权限等级等）。&#xa;作用：作为权限决策的输入条件（如 “部门 = 研发部” 或 “职级≥P7”）。" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=light-dark(#FFFFFF,#D4E1F5);fontColor=light-dark(#FFFFFF,#000000);fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1518" width="580" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OqhWSK0iF346BGF96KZG-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OqhWSK0iF346BGF96KZG-78" target="OqhWSK0iF346BGF96KZG-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OqhWSK0iF346BGF96KZG-78" value="定义：存储受保护资源的属性（如文件密级、订单金额、数据所属区域等）。&#xa;作用：作为权限决策的目标条件（如 “文件密级≤机密” 或 “订单金额＜100 万”）。" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=light-dark(#FFFFFF,#D4E1F5);fontColor=light-dark(#FFFFFF,#000000);fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1190" width="620" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OqhWSK0iF346BGF96KZG-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OqhWSK0iF346BGF96KZG-80" target="OqhWSK0iF346BGF96KZG-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OqhWSK0iF346BGF96KZG-80" value="定义：存储访问请求的环境上下文（如访问时间、IP 地址、设备类型、网络环境等）。&#xa;作用：作为权限决策的动态条件（如 “仅工作日 9:00-18:00 可访问” 或 “仅内网 IP 可操作”）。" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=light-dark(#FFFFFF,#D4E1F5);fontColor=light-dark(#FFFFFF,#000000);fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1872" width="710" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OqhWSK0iF346BGF96KZG-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OqhWSK0iF346BGF96KZG-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1376" y="1543" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqhWSK0iF346BGF96KZG-82" value="定义：存储 ABAC 规则的核心逻辑（如 “部门经理可查看本部门所有订单”）。&#xa;作用：定义属性之间的关联规则，决定权限是否生效。" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=light-dark(#FFFFFF,#D4E1F5);fontColor=light-dark(#FFFFFF,#000000);fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1464" y="1518" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VsTmgS2lVGUB49ZAgeWm-1" value="权限-属性&lt;div&gt;permission_attributes&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="720" y="2040" width="200" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="VsTmgS2lVGUB49ZAgeWm-2" value="permission_id" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="VsTmgS2lVGUB49ZAgeWm-1">
+          <mxGeometry y="50" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VsTmgS2lVGUB49ZAgeWm-4" value="attribute_key" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="VsTmgS2lVGUB49ZAgeWm-1">
+          <mxGeometry y="76" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VsTmgS2lVGUB49ZAgeWm-6" value="attribute_type" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="VsTmgS2lVGUB49ZAgeWm-1">
+          <mxGeometry y="102" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VsTmgS2lVGUB49ZAgeWm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VsTmgS2lVGUB49ZAgeWm-7" target="VsTmgS2lVGUB49ZAgeWm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VsTmgS2lVGUB49ZAgeWm-7" value="定义：存储权限本身的元数据属性（如权限的适用场景、限制条件等）。&#xa;作用：辅助权限决策（如 “此权限仅适用于移动端”）。" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=light-dark(#FFFFFF,#D4E1F5);fontColor=light-dark(#FFFFFF,#000000);fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="2078" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VsTmgS2lVGUB49ZAgeWm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.069;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OqhWSK0iF346BGF96KZG-53" target="OqhWSK0iF346BGF96KZG-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VsTmgS2lVGUB49ZAgeWm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.018;entryY=0.069;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VsTmgS2lVGUB49ZAgeWm-2" target="OqhWSK0iF346BGF96KZG-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VsTmgS2lVGUB49ZAgeWm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OqhWSK0iF346BGF96KZG-59" target="OqhWSK0iF346BGF96KZG-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="1846" />
+              <mxPoint x="1020" y="1570" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
