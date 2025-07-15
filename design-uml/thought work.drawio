@@ -2367,6 +2367,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="VsTmgS2lVGUB49ZAgeWm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OqhWSK0iF346BGF96KZG-48" target="OqhWSK0iF346BGF96KZG-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="1357" />
+              <mxPoint x="1020" y="1571" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
