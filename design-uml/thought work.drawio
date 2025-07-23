@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.16" pages="13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.4" pages="13">
   <diagram name="关于API 思路" id="KDSyLmLGWB-m212FKGPZ">
     <mxGraphModel dx="2389" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1783,7 +1783,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="74qlmXTSF1Csrr5mG-hw" name="权限模块ER简图">
-    <mxGraphModel dx="2901" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2381" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2381,6 +2381,21 @@
         </mxCell>
         <mxCell id="VsTmgS2lVGUB49ZAgeWm-19" value="ABAC模型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=light-dark(#FFFFFF,#D5E8D4);fontSize=24;fontColor=light-dark(#000000,#000000);" parent="1" vertex="1">
           <mxGeometry x="620" y="1220" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t1B_V2YLkWVghkXOrUCG-1" value="权限-属性&lt;div&gt;permission_attributes&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2570" width="200" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="t1B_V2YLkWVghkXOrUCG-2" value="permission_id" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="t1B_V2YLkWVghkXOrUCG-1">
+          <mxGeometry y="50" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t1B_V2YLkWVghkXOrUCG-3" value="attribute_key" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="t1B_V2YLkWVghkXOrUCG-1">
+          <mxGeometry y="76" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t1B_V2YLkWVghkXOrUCG-4" value="attribute_type" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="t1B_V2YLkWVghkXOrUCG-1">
+          <mxGeometry y="102" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t1B_V2YLkWVghkXOrUCG-5" value="PBAC模型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=22;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2470" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
