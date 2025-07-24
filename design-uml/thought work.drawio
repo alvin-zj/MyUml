@@ -1404,16 +1404,16 @@
         <mxCell id="84gMysaAlnA_LOOinTVS-29" value="域名解析找到站点信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="84gMysaAlnA_LOOinTVS-21">
           <mxGeometry x="60" y="57.5" width="100" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="84gMysaAlnA_LOOinTVS-22" value="模块服务" style="swimlane;startSize=30;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="84gMysaAlnA_LOOinTVS-18">
+        <mxCell id="84gMysaAlnA_LOOinTVS-22" value="栏目服务" style="swimlane;startSize=30;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="84gMysaAlnA_LOOinTVS-18">
           <mxGeometry x="600" y="50" width="240" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="84gMysaAlnA_LOOinTVS-32" value="根据uri解析模块信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="84gMysaAlnA_LOOinTVS-22">
+        <mxCell id="84gMysaAlnA_LOOinTVS-32" value="根据uri解析栏目信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="84gMysaAlnA_LOOinTVS-22">
           <mxGeometry x="40" y="57.5" width="100" height="55" as="geometry" />
         </mxCell>
         <mxCell id="84gMysaAlnA_LOOinTVS-23" value="组件服务" style="swimlane;startSize=30;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="84gMysaAlnA_LOOinTVS-18">
           <mxGeometry x="840" y="50" width="200" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="84gMysaAlnA_LOOinTVS-34" value="根据模块解析组件列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="84gMysaAlnA_LOOinTVS-23">
+        <mxCell id="84gMysaAlnA_LOOinTVS-34" value="根据栏目解析组件列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="84gMysaAlnA_LOOinTVS-23">
           <mxGeometry x="40" y="57.5" width="100" height="55" as="geometry" />
         </mxCell>
         <mxCell id="84gMysaAlnA_LOOinTVS-24" value="内容服务" style="swimlane;startSize=30;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="84gMysaAlnA_LOOinTVS-18">
