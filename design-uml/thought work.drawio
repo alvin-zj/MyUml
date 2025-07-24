@@ -1369,6 +1369,93 @@
         <mxCell id="84gMysaAlnA_LOOinTVS-13" value="展示端" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="280" y="430" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-18" value="&lt;span&gt;官网请求流程&lt;/span&gt;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=50;html=1;spacingLeft=1;fontColor=light-dark(#000000,#000000);swimlaneFillColor=#D5E8D4;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="1240" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-19" value="用户" style="swimlane;startSize=30;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="84gMysaAlnA_LOOinTVS-18">
+          <mxGeometry y="50" width="200" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="84gMysaAlnA_LOOinTVS-19" source="84gMysaAlnA_LOOinTVS-25" target="84gMysaAlnA_LOOinTVS-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-25" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="84gMysaAlnA_LOOinTVS-19">
+          <mxGeometry x="70" y="60" width="15" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-45" value="浏览器展示" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="84gMysaAlnA_LOOinTVS-19">
+          <mxGeometry x="90" y="170" width="72.5" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-20" value="展示端服务" style="swimlane;startSize=30;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="84gMysaAlnA_LOOinTVS-18">
+          <mxGeometry x="200" y="50" width="200" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-27" value="解析域名、用户浏览器语言" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="84gMysaAlnA_LOOinTVS-20">
+          <mxGeometry x="50" y="57.5" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-40" value="解析、渲染页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="84gMysaAlnA_LOOinTVS-20">
+          <mxGeometry x="55" y="178.75" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="84gMysaAlnA_LOOinTVS-18" source="84gMysaAlnA_LOOinTVS-40" target="84gMysaAlnA_LOOinTVS-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="256.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-21" value="站点服务" style="swimlane;startSize=30;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="84gMysaAlnA_LOOinTVS-18">
+          <mxGeometry x="400" y="50" width="200" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-29" value="域名解析找到站点信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="84gMysaAlnA_LOOinTVS-21">
+          <mxGeometry x="60" y="57.5" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-22" value="模块服务" style="swimlane;startSize=30;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="84gMysaAlnA_LOOinTVS-18">
+          <mxGeometry x="600" y="50" width="240" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-32" value="根据uri解析模块信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="84gMysaAlnA_LOOinTVS-22">
+          <mxGeometry x="40" y="57.5" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-23" value="组件服务" style="swimlane;startSize=30;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="84gMysaAlnA_LOOinTVS-18">
+          <mxGeometry x="840" y="50" width="200" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-34" value="根据模块解析组件列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="84gMysaAlnA_LOOinTVS-23">
+          <mxGeometry x="40" y="57.5" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-24" value="内容服务" style="swimlane;startSize=30;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="84gMysaAlnA_LOOinTVS-18">
+          <mxGeometry x="1040" y="50" width="200" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-37" value="获取组件内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="84gMysaAlnA_LOOinTVS-24">
+          <mxGeometry x="60" y="57.5" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="84gMysaAlnA_LOOinTVS-18" source="84gMysaAlnA_LOOinTVS-25" target="84gMysaAlnA_LOOinTVS-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-28" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;域名&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="84gMysaAlnA_LOOinTVS-26">
+          <mxGeometry x="-0.1952" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="84gMysaAlnA_LOOinTVS-18" source="84gMysaAlnA_LOOinTVS-27" target="84gMysaAlnA_LOOinTVS-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="84gMysaAlnA_LOOinTVS-18" source="84gMysaAlnA_LOOinTVS-29" target="84gMysaAlnA_LOOinTVS-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="84gMysaAlnA_LOOinTVS-18" source="84gMysaAlnA_LOOinTVS-32" target="84gMysaAlnA_LOOinTVS-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="84gMysaAlnA_LOOinTVS-18" source="84gMysaAlnA_LOOinTVS-34" target="84gMysaAlnA_LOOinTVS-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="84gMysaAlnA_LOOinTVS-18" source="84gMysaAlnA_LOOinTVS-37" target="84gMysaAlnA_LOOinTVS-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1150" y="256" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84gMysaAlnA_LOOinTVS-43" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;返回&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="84gMysaAlnA_LOOinTVS-42">
+          <mxGeometry x="0.1996" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
