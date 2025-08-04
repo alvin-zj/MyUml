@@ -1404,7 +1404,7 @@
         <mxCell id="-yS4SP8CYlVcYg6Jatpk-25" value="page_id" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="-yS4SP8CYlVcYg6Jatpk-23">
           <mxGeometry y="76" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="-yS4SP8CYlVcYg6Jatpk-26" value="conponent_id" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="-yS4SP8CYlVcYg6Jatpk-23">
+        <mxCell id="-yS4SP8CYlVcYg6Jatpk-26" value="component_id" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="-yS4SP8CYlVcYg6Jatpk-23">
           <mxGeometry y="102" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-yS4SP8CYlVcYg6Jatpk-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-yS4SP8CYlVcYg6Jatpk-27">
@@ -1413,7 +1413,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-yS4SP8CYlVcYg6Jatpk-27" value="组件实例ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-215" y="1933" width="110" height="40" as="geometry" />
+          <mxGeometry x="-130" y="1928" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-yS4SP8CYlVcYg6Jatpk-32" value="内容表&lt;br&gt;content" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="2070" width="160" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="-yS4SP8CYlVcYg6Jatpk-33" value="id" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="-yS4SP8CYlVcYg6Jatpk-32">
+          <mxGeometry y="50" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-yS4SP8CYlVcYg6Jatpk-34" value="page_id" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="-yS4SP8CYlVcYg6Jatpk-32">
+          <mxGeometry y="76" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-yS4SP8CYlVcYg6Jatpk-35" value="component_id" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="-yS4SP8CYlVcYg6Jatpk-32">
+          <mxGeometry y="102" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-yS4SP8CYlVcYg6Jatpk-36" value="data" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="-yS4SP8CYlVcYg6Jatpk-32">
+          <mxGeometry y="128" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-yS4SP8CYlVcYg6Jatpk-37" value="组件实例中实际存储内容数据&lt;span data-type=&quot;text&quot; style=&quot;text-align: left; background-color: transparent; font-size: 12pt;&quot;&gt;符合对应组件类型的content_format&lt;/span&gt;&lt;span data-type=&quot;text&quot; style=&quot;text-align: left; background-color: transparent; font-size: 12pt;&quot;&gt;，管理端编辑时会自动校验格式&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontSize=18;fontColor=light-dark(#FFFFFF,#000000);" vertex="1" parent="1">
+          <mxGeometry x="105" y="2184" width="730" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
