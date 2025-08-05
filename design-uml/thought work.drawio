@@ -251,7 +251,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_bW-kXcklE4fUiywUzpe" name="CMS技术架构">
-    <mxGraphModel dx="1869" dy="1739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2381" dy="2027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1317,7 +1317,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-yS4SP8CYlVcYg6Jatpk-1" value="栏目&lt;br&gt;category" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-493" y="1540" width="160" height="128" as="geometry" />
+          <mxGeometry x="-500" y="1601" width="160" height="128" as="geometry" />
         </mxCell>
         <mxCell id="-yS4SP8CYlVcYg6Jatpk-2" value="id" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="-yS4SP8CYlVcYg6Jatpk-1">
           <mxGeometry y="50" width="160" height="26" as="geometry" />
@@ -1354,6 +1354,14 @@
         <mxCell id="-yS4SP8CYlVcYg6Jatpk-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-yS4SP8CYlVcYg6Jatpk-14" target="-yS4SP8CYlVcYg6Jatpk-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-yS4SP8CYlVcYg6Jatpk-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-yS4SP8CYlVcYg6Jatpk-14" target="-yS4SP8CYlVcYg6Jatpk-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-yS4SP8CYlVcYg6Jatpk-53" value="列表内容" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-yS4SP8CYlVcYg6Jatpk-52">
+          <mxGeometry x="0.0975" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-yS4SP8CYlVcYg6Jatpk-14" value="组件实例表&lt;br&gt;component_instance" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-190" y="1550" width="180" height="206" as="geometry" />
         </mxCell>
@@ -1379,7 +1387,7 @@
           <mxGeometry x="40" y="1430" width="900" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-yS4SP8CYlVcYg6Jatpk-32" value="内容表&lt;br&gt;content" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="137" y="1650" width="160" height="154" as="geometry" />
+          <mxGeometry x="260" y="1580" width="160" height="154" as="geometry" />
         </mxCell>
         <mxCell id="-yS4SP8CYlVcYg6Jatpk-33" value="id" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="-yS4SP8CYlVcYg6Jatpk-32">
           <mxGeometry y="50" width="160" height="26" as="geometry" />
@@ -1394,10 +1402,10 @@
           <mxGeometry y="128" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-yS4SP8CYlVcYg6Jatpk-37" value="组件实例中实际存储内容数据&lt;span data-type=&quot;text&quot; style=&quot;text-align: left; background-color: transparent; font-size: 12pt;&quot;&gt;符合对应组件类型的content_format&lt;/span&gt;&lt;span data-type=&quot;text&quot; style=&quot;text-align: left; background-color: transparent; font-size: 12pt;&quot;&gt;，管理端编辑时会自动校验格式&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontSize=18;fontColor=light-dark(#FFFFFF,#000000);" vertex="1" parent="1">
-          <mxGeometry x="380" y="1720" width="730" height="40" as="geometry" />
+          <mxGeometry x="480" y="1716" width="730" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-yS4SP8CYlVcYg6Jatpk-39" value="列表内容表&lt;br&gt;list_content" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1860" width="160" height="258" as="geometry" />
+          <mxGeometry x="162" y="1840" width="160" height="258" as="geometry" />
         </mxCell>
         <mxCell id="-yS4SP8CYlVcYg6Jatpk-40" value="id" style="text;strokeColor=#d79b00;fillColor=light-dark(#FFE6CC,#9AC7BF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="-yS4SP8CYlVcYg6Jatpk-39">
           <mxGeometry y="50" width="160" height="26" as="geometry" />
@@ -1428,6 +1436,11 @@
         </mxCell>
         <mxCell id="-yS4SP8CYlVcYg6Jatpk-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.862;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-yS4SP8CYlVcYg6Jatpk-14" target="-yS4SP8CYlVcYg6Jatpk-33">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-yS4SP8CYlVcYg6Jatpk-54" value="其他静态内容" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-yS4SP8CYlVcYg6Jatpk-51">
+          <mxGeometry x="0.1578" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
