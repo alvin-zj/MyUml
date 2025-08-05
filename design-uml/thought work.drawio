@@ -1442,6 +1442,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="-yS4SP8CYlVcYg6Jatpk-55" value="目前列表内容抽取共性内容，提供部分可扩展能力" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="415" y="1928" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-yS4SP8CYlVcYg6Jatpk-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.986;entryY=0.118;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-yS4SP8CYlVcYg6Jatpk-55" target="-yS4SP8CYlVcYg6Jatpk-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
