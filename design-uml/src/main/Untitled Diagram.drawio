@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1" pages="2">
   <diagram name="Message Flow" id="x7NyT7oP6zBGNjEY9qoY">
     <mxGraphModel dx="786" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -55,6 +55,74 @@
         </mxCell>
         <mxCell id="x_WzZ3CDjPVDQIPruguN-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="Message Flow" vertex="1">
           <mxGeometry height="30" width="250" x="340" y="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hCv55tnayFAVxhNxyay2" name="Data Access">
+    <mxGraphModel dx="786" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qUfgfsVt_abULacp1KjK-7" edge="1" parent="1" source="qUfgfsVt_abULacp1KjK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qUfgfsVt_abULacp1KjK-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="150" />
+              <mxPoint x="180" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUfgfsVt_abULacp1KjK-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="API" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qUfgfsVt_abULacp1KjK-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="MQTT topics" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qUfgfsVt_abULacp1KjK-8" edge="1" parent="1" source="qUfgfsVt_abULacp1KjK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qUfgfsVt_abULacp1KjK-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="300" />
+              <mxPoint x="180" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUfgfsVt_abULacp1KjK-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:等线;mso-fareast-theme-font:&lt;br/&gt;minor-fareast;mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;database&lt;br/&gt;ETL&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="qUfgfsVt_abULacp1KjK-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="inner ToAI" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qUfgfsVt_abULacp1KjK-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Other System" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qUfgfsVt_abULacp1KjK-6" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1.011;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;" target="qUfgfsVt_abULacp1KjK-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="300" />
+              <mxPoint x="390" y="240" />
+              <mxPoint x="390" y="143" />
+            </Array>
+            <mxPoint x="331" y="300" as="sourcePoint" />
+            <mxPoint x="430" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUfgfsVt_abULacp1KjK-12" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="qUfgfsVt_abULacp1KjK-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="220" />
+            </Array>
+            <mxPoint x="390" y="220" as="sourcePoint" />
+            <mxPoint x="430" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUfgfsVt_abULacp1KjK-13" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="qUfgfsVt_abULacp1KjK-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="220" />
+            </Array>
+            <mxPoint x="180" y="220" as="sourcePoint" />
+            <mxPoint x="610" y="200" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
