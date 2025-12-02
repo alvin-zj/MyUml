@@ -342,6 +342,9 @@
         <mxCell id="5qiLuJNIdoRCWEol5Yzu-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;br&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size:11.0pt;line-height:&amp;lt;br/&amp;gt;107%;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:等线;mso-fareast-theme-font:&amp;lt;br/&amp;gt;minor-fareast;mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;&amp;lt;br/&amp;gt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;HDB AD users&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="165" x="312.5" y="-380" as="geometry" />
         </mxCell>
+        <mxCell id="5qiLuJNIdoRCWEol5Yzu-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: consolas, Courier, &amp;quot;MS Courier New&amp;quot;, monospace; text-align: left; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;身份安全&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1080" y="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
