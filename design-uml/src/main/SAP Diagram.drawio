@@ -4,6 +4,27 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Nqt06mr0jOeYPk8_C6-G-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;SAP业务技术平台将数据管理、分析、人工智能、应用程序开发、自动化和集成集成在一个统一的环境中。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;它通过集成、数据到价值以及所有SAP和第三方应用程序和数据资产的可扩展性，帮助您实现敏捷性、业务价值和持续创新，并使您的企业成为智能企业。&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="620" x="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nqt06mr0jOeYPk8_C6-G-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="数据管理" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Nqt06mr0jOeYPk8_C6-G-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="分析" vertex="1">
+          <mxGeometry height="60" width="120" x="410" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Nqt06mr0jOeYPk8_C6-G-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="人工智能（AI）" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Nqt06mr0jOeYPk8_C6-G-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="应用开发" vertex="1">
+          <mxGeometry height="60" width="120" x="410" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Nqt06mr0jOeYPk8_C6-G-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="自动化&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20value%3D%22%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%88AI%EF%BC%89%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2260%22%20width%3D%22120%22%20x%3D%22260%22%20y%3D%22270%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Nqt06mr0jOeYPk8_C6-G-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="集成" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="270" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
