@@ -79,6 +79,27 @@
         <mxCell id="2z9E43BPuNJMFbCp2rXx-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="BTP" vertex="1">
           <mxGeometry height="30" width="60" x="280" y="130" as="geometry" />
         </mxCell>
+        <mxCell id="2z9E43BPuNJMFbCp2rXx-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="290" width="170" x="690" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="2z9E43BPuNJMFbCp2rXx-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="交互模式" vertex="1">
+          <mxGeometry height="30" width="60" x="740" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="2z9E43BPuNJMFbCp2rXx-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="信息" vertex="1">
+          <mxGeometry height="50" width="110" x="720" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="2z9E43BPuNJMFbCp2rXx-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="导航" vertex="1">
+          <mxGeometry height="50" width="110" x="720" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="2z9E43BPuNJMFbCp2rXx-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="事务" vertex="1">
+          <mxGeometry height="50" width="110" x="720" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="2z9E43BPuNJMFbCp2rXx-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="分析" vertex="1">
+          <mxGeometry height="50" width="110" x="720" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="2z9E43BPuNJMFbCp2rXx-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;信息的：知道某事&lt;/div&gt;&lt;div&gt;导航：去某个地方&lt;/div&gt;&lt;div&gt;事务性：做某事&lt;/div&gt;&lt;div&gt;分析的：理解某事&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="705" y="750" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
