@@ -301,7 +301,7 @@
         <mxCell id="QMe1GKxNAydxiXCK6P9R-12" parent="QMe1GKxNAydxiXCK6P9R-15" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;流程自动化工具&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Process Automation&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="240.25" y="17.5" as="geometry" />
         </mxCell>
-        <mxCell id="QMe1GKxNAydxiXCK6P9R-13" parent="QMe1GKxNAydxiXCK6P9R-15" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;标注系统扩展&lt;/font&gt;&lt;div&gt;Extension Suite&lt;/div&gt;" vertex="1">
+        <mxCell id="QMe1GKxNAydxiXCK6P9R-13" parent="QMe1GKxNAydxiXCK6P9R-15" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;标准系统扩展&lt;/font&gt;&lt;div&gt;Extension Suite&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="90.25" y="87.5" as="geometry" />
         </mxCell>
         <mxCell id="QMe1GKxNAydxiXCK6P9R-17" parent="QMe1GKxNAydxiXCK6P9R-15" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;云ABAP开发平台&lt;/font&gt;&lt;div&gt;ABAP Environment&lt;/div&gt;" vertex="1">
@@ -1214,7 +1214,7 @@
         <mxCell id="4fAAyY8pxDPfD1MiP6f_-7" parent="4fAAyY8pxDPfD1MiP6f_-2" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;流程自动化工具&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Process Automation&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="240.25" y="17.5" as="geometry" />
         </mxCell>
-        <mxCell id="4fAAyY8pxDPfD1MiP6f_-8" parent="4fAAyY8pxDPfD1MiP6f_-2" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;标注系统扩展&lt;/font&gt;&lt;div&gt;Extension Suite&lt;/div&gt;" vertex="1">
+        <mxCell id="4fAAyY8pxDPfD1MiP6f_-8" parent="4fAAyY8pxDPfD1MiP6f_-2" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;标准系统扩展&lt;/font&gt;&lt;div&gt;Extension Suite&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="90.25" y="87.5" as="geometry" />
         </mxCell>
         <mxCell id="4fAAyY8pxDPfD1MiP6f_-9" parent="4fAAyY8pxDPfD1MiP6f_-2" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;云ABAP开发平台&lt;/font&gt;&lt;div&gt;ABAP Environment&lt;/div&gt;" vertex="1">
