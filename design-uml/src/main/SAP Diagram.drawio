@@ -341,7 +341,7 @@
           <mxGeometry height="60" width="150" x="680" y="2790" as="geometry" />
         </mxCell>
         <mxCell id="QMe1GKxNAydxiXCK6P9R-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;应用生命周期管理&lt;/span&gt;&lt;/div&gt;&lt;div&gt;ALM&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="140" x="890" y="2790" as="geometry" />
+          <mxGeometry height="60" width="150" x="890" y="2790" as="geometry" />
         </mxCell>
         <mxCell id="QMe1GKxNAydxiXCK6P9R-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;安全与合规&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Security&amp;amp;Compliance&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="150" x="680" y="2870" as="geometry" />
@@ -688,7 +688,7 @@
         <mxCell id="0XPYXYAGjN-EesiAv7Mp-34" parent="0XPYXYAGjN-EesiAv7Mp-33" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="146.28571428571428" width="170" y="13.714285714285714" as="geometry" />
         </mxCell>
-        <mxCell id="0XPYXYAGjN-EesiAv7Mp-35" parent="0XPYXYAGjN-EesiAv7Mp-33" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;模型矩阵&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="0XPYXYAGjN-EesiAv7Mp-35" parent="0XPYXYAGjN-EesiAv7Mp-33" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;模型矩阵&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="32" width="136" x="13.6" y="38.857142857142854" as="geometry" />
         </mxCell>
         <mxCell id="0XPYXYAGjN-EesiAv7Mp-36" parent="0XPYXYAGjN-EesiAv7Mp-33" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;企业级安全隔离&lt;/span&gt;&lt;/div&gt;" vertex="1">
@@ -753,6 +753,9 @@
         </mxCell>
         <mxCell id="0XPYXYAGjN-EesiAv7Mp-57" parent="0XPYXYAGjN-EesiAv7Mp-52" style="text;html=1;whiteSpace=wrap;strokeColor=#99CCFF;fillColor=#cce5ff;align=center;verticalAlign=middle;rounded=1;glass=1;dashed=1;arcSize=31;shadow=0;" value="算力与数据支撑" vertex="1">
           <mxGeometry height="27.428571428571427" width="95.2" x="40.8" as="geometry" />
+        </mxCell>
+        <mxCell id="cBfchYLnO4oLFiRX1VS7-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;多云支持&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;AWS、Azure、阿里云....&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="889.75" y="2867.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
