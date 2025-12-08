@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.4" pages="3">
   <diagram name="BTP" id="zGVEDXONaxrBIvmOKLkI">
-    <mxGraphModel dx="1025" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2305" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -753,6 +753,16 @@
         </mxCell>
         <mxCell id="cBfchYLnO4oLFiRX1VS7-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;多云支持&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;AWS、Azure、阿里云....&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="150" x="889.75" y="2867.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zlIdFGq-K0AhjWxiJbuK-4" edge="1" parent="1" source="zlIdFGq-K0AhjWxiJbuK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="0XPYXYAGjN-EesiAv7Mp-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1460" y="2907" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlIdFGq-K0AhjWxiJbuK-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;ul class=&quot;auto-hide-last-sibling-br&quot; style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px 0px 8px; padding: 0px 0px 0px 20px; list-style: none; overflow-anchor: auto; font-family: Inter, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 8px 0px; padding: 0px; line-height: 24px; list-style-type: disc; overflow-anchor: auto;&quot;&gt;支持对接全球&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; font-weight: 700; line-height: 28px; overflow-anchor: auto;&quot;&gt;25 + 主流大模型&lt;/span&gt;(闭源 / 开源)，包括 OpenAI、Amazon Bedrock (Claude/Nova)、Google、Meta (Llama 系列)，通义千问 等，提供统一 API 接口&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="30" width="490" x="1190" y="3160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
